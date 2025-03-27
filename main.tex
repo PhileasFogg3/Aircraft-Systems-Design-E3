@@ -1,0 +1,91 @@
+\documentclass[stu, a4paper, 12pt, floatsintext]{apa7}
+
+% Title Page Stuff
+\title{A Design Report for the Transportation Aircraft Designed in Aircraft Systems Design E3 with a Specific Focus on the Design Aspects Covered by the Author.}
+\shorttitle{Individual Design Report}
+\leftheader{25/03/25}
+\authorsnames{Philip Beswick @00662943}
+\authorsaffiliations{The University of Salford}
+\course{Aircraft Systems Design E3}
+\professor{Dr O K Ariff, Dr Andreea Koreanschi}
+\duedate{28/03/25}
+\abstract{Some abstract yada yada yada}
+
+% Packages Required
+\usepackage{csquotes}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\usepackage{pgf-pie}
+\usepackage{pgfplots}
+\usepackage{paracol}
+\usepackage{amsmath}
+\usepackage{tocloft}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{gensymb}
+
+\addbibresource{bibliography.bib}
+
+\pgfplotsset{compat=1.18}
+
+% Counts chapters numerically
+\setcounter{tocdepth}{5}
+\setcounter{secnumdepth}{5}
+
+% Counts equations, figures and tables sequentially depending on the chapter
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+\numberwithin{equation}{section}
+
+\newcommand{\listequationsname}{\Large List of Equations}
+\newlistof{myequations}{equ}{\listequationsname}
+\newcommand{\myequations}[1]{%
+\addcontentsline{equ}{myequations}{\protect\numberline{\theequation}#1}\par}
+\setlength{\cftmyequationsnumwidth}{2.5em}% Width of equation number in List of Equations
+
+% Makes sure LaTeX knows where we are :D
+\DeclareLanguageMapping{british}{british-apa}
+
+\begin{document}
+
+\maketitle{} % Generates the title page
+
+\tableofcontents
+
+\newpage
+
+\addcontentsline{toc}{subsection}{List of Figures}
+\listoffigures
+\addcontentsline{toc}{subsection}{List of Tables}
+\listoftables
+\addcontentsline{toc}{subsection}{List of Equations}
+\listofmyequations
+
+%%% Contents of report go here %%%
+\newpage
+
+\section{Introduction}
+\section{Overview of Group Design and Market Survey}
+\subsection{Market Survey}
+\subsection{Design Overview}
+\section{Primary Tasks}
+\subsection{Initial Weight Estimation}
+\subsection{Centre of Gravity}
+\subsection{Environmental Control Systems}
+\section{Secondary Tasks}
+\subsection{Aircraft Drag Prediction}
+\subsection{Tail and Fin Design}
+\section{Design Review}
+\section{Group Work Evaluation}
+\section{Conclusions}
+
+\section{Appendix}
+
+\addcontentsline{toc}{subsection}{References}
+\printbibliography
+\end{document}
