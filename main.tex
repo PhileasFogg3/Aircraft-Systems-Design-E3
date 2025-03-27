@@ -76,6 +76,224 @@
 \section{Primary Tasks}
 \subsection{Initial Weight Estimation}
 \subsection{Centre of Gravity}
+Once the aircraft’s wings, fuselage, and weights have been estimated, balancing the centre of gravity is an excellent way to confirm whether the design choices up to that point were suitable. In addition, EASA Part 25 sets out several key parameters in order for the aircraft to be certifiable, most notably that the centre of gravity’s position must be no more than 50\% of the mean aerodynamic chord or less than 25\% of the mean aerodynamic chord. Furthermore, this must be true in both standard and extreme loading conditions to ensure the flight crew can fly the aircraft with relative ease. 
+
+With this in mind, while noting the aircraft’s initial geometry and layout, the centre of gravity positions can be calculated; this was completed using the moment method, with the reference point taken as the aircraft’s nose.  
+\begin{equation}
+    X_{CG} = \sum \left( {{m_xx}\over{m_{Total}}} \right) \, ,
+\end{equation}
+\myequations{Equation to find the aircraft's centre of gravity.}
+Where $m_x$ is the mass of a specific component and $x$ is the distance of that component from the datum. $m_{Total}$ is the total mass of all components onboard the aircraft.
+
+Table 3.1 shows the values used to calculate $X_{CG}$ assuming maximum fuel and payload. The values given for $m_x$ are as fractions of the aircraft’s maximum takeoff weight.
+
+\begin{table}[H]
+    \centering
+    \caption{A table showing the weight fraction of all components onboard the aircraft and their respective position relative to the nose of the aircraft. }
+    \label{tab:cg_table}
+    \begin{tabular}{@{}lll@{}}
+    \toprule
+    Component          & $m_x$ (Kg)                      & $x$ (m) \\ \midrule
+    Wing               & {\color[HTML]{000000} 0.072472} & 7.29    \\
+    Fuselage           & 0.17343                         & 6.65    \\
+    Tailplane          & 0.01462                         & 15.08   \\
+    Fin                & 0.01389                         & 14.35   \\
+    Main Undercarriage & 0.03586                         & 8.04    \\
+    Nose Undercarriage & 0.01206                         & 2.97    \\
+    Flying Controls    & 0.01715                         & 7.11    \\
+    Engine Pod         & 0.01833                         & 5.97    \\
+    Engine Installed   & 0.10689                         & 5.55    \\
+    Airframe           & 0.14                            & 8.31    \\
+    Fuel               & 0.13094                         & 7.17    \\
+    Payload            & 0.23256                         & 5.84    \\ \bottomrule
+    \end{tabular}
+\end{table}
+
+Therefore, when applying Equation 3.1, the centre of gravity position is found to be 6.93m from the aircraft’s nose.
+
+At this stage, it's important to consider how some components' mass will change in flight while others will not. For example, the mass of the aircraft's fuel tanks will decrease during the flight as fuel is burned. However, an aircraft's undercarriage will remain at a constant weight throughout the flight. This is an important consideration to make when tweaking component positions in order to gain a suitable $X_{CG}$ position.
+
+Once the position of the centre of gravity is known, relative to the aircraft’s nose, it is vital to find the position of the centre of gravity in terms of the aircraft’s mean aerodynamic chord (MAC). This can be done using the following relationship:
+
+\begin{equation}
+    X_{CG_{MAC}} = {{X_{CG}-X_{MAC_{LE}}}\over{MAC}} \, ,
+\end{equation}
+\myequations{Equation to find the aircraft's centre of gravity as a fraction of MAC.}
+Where $X_{MAC_{LE}}$ is the position of the leading edge of the mean aerodynamic chord and $MAC$ is the length of the mean aerodynamic chord. Therefore, the position of the centre of gravity, as a fraction of the mean aerodynamic chord, is given to be 0.31. This value is within the limits that were previously discussed. Yet, this calculation was only completed for one loading condition, maximum fuel capacity and maximum payload. 
+
+To remain completely compliant with EASA Part-25, this process was repeated for several loading conditions, specifically decreasing fuel by 10\% until there was no fuel left for five different payload configurations. The output for these calculations are plotted on the graph shown in Figure 3.1. 
+
+\begin{figure}[H]
+    \caption{The change in CG Position as Fuel Load Decreases}
+    \label{fig:cg_pos_graph}
+    \centering
+    \resizebox{1.0\textwidth}{!}{%
+    \begin{tikzpicture}
+        \begin{axis}[
+            title={},
+            xlabel={CG Position as \% of MAC},
+            ylabel={\% of Fuel load onboard},
+            xmin=0.2, xmax=0.55,
+            ymin=0, ymax=100,
+            xtick={0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55},
+            ytick={0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100},
+            legend pos=north west,
+            ymajorgrids=true,
+            grid style=dashed,
+        ]
+        
+        \addplot[
+            only marks,
+            mark=diamond,
+            color=blue,
+            ]
+            coordinates {
+                (0.389, 100)
+                (0.386, 90)
+                (0.383, 80)
+                (0.378, 70)
+                (0.373, 60)
+                (0.367, 50)
+                (0.36, 40)
+                (0.35, 30)
+                (0.337, 20)
+                (0.32, 10)
+                (0.294, 0)                                           
+            };
+        \addplot[
+            only marks,
+            color=orange,
+            mark=square,
+            ]
+            coordinates {
+                (0.4, 100)
+                (0.398, 90)
+                (0.395, 80)
+                (0.392, 70)
+                (0.388, 60)
+                (0.383, 50)
+                (0.377, 40)
+                (0.37, 30)
+                (0.36, 20)
+                (0.346, 10)
+                (0.325, 0)                                             
+            };
+        \addplot[
+            only marks,
+            color=green,
+            mark=triangle,
+            ]
+            coordinates {
+                (0.411, 100)
+                (0.41, 90)
+                (0.408, 80)
+                (0.406, 70)
+                (0.403, 60)
+                (0.4, 50)
+                (0.396, 40)
+                (0.391, 30)
+                (0.384, 20)
+                (0.375, 10)
+                (0.36, 0)                                             
+            };
+        \addplot[
+            only marks,
+            color=cyan,
+            mark=pentagon,
+            ]
+            coordinates {
+                (0.423, 100)
+                (0.422, 90)
+                (0.421, 80)
+                (0.42, 70)
+                (0.419, 60)
+                (0.418, 50)
+                (0.416, 40)
+                (0.414, 30)
+                (0.411, 20)
+                (0.406, 10)
+                (0.399, 0)                                              
+            };
+        \addplot[
+            only marks,
+            color=black,
+            mark=+,
+            ]
+            coordinates {
+                (0.434, 100)
+                (0.435, 90)
+                (0.435, 80)
+                (0.435, 70)
+                (0.436, 60)
+                (0.437, 50)
+                (0.437, 40)
+                (0.438, 30)
+                (0.44, 20)
+                (0.441, 10)
+                (0.445, 0)                                             
+            };
+            \addplot[
+                only marks,
+                color=brown,
+                mark=star,
+                ]
+                coordinates {
+                    (0.447, 100)
+                    (0.448, 90)
+                    (0.45, 80)
+                    (0.451, 70)
+                    (0.454, 60)
+                    (0.456, 50)
+                    (0.46, 40)
+                    (0.465, 30)
+                    (0.471, 20)
+                    (0.481, 10)
+                    (0.496, 0)                                                      
+                };
+            \addplot[
+                color=red,
+                mark=circle,
+                ]
+                coordinates {
+                    (0.25, 100)
+                    (0.25, 90)
+                    (0.25, 80)
+                    (0.25, 70)
+                    (0.25, 60)
+                    (0.25, 50)
+                    (0.25, 40)
+                    (0.25, 30)
+                    (0.25, 20)
+                    (0.25, 10)
+                    (0.25, 0)                                                   
+                };
+            \addplot[
+                color=red,
+                mark=circle,
+                ]
+                coordinates {
+                    (0.5, 100)
+                    (0.5, 90)
+                    (0.5, 80)
+                    (0.5, 70)
+                    (0.5, 60)
+                    (0.5, 50)
+                    (0.5, 40)
+                    (0.5, 30)
+                    (0.5, 20)
+                    (0.5, 10)
+                    (0.5, 0)                                                    
+                };
+            \legend{100\% Payload, 80\% Payload, 60\%Payload, 40\% Payload, 20\% Payload, 0\% Payload}
+        \end{axis}
+    \end{tikzpicture}
+    }
+\end{figure}
+
+Figure 3.1 ultimately shows that no matter the aircraft's loading configuration, the CG position remains within the acceptable limits imposed in EASA Part-25. This means that the aircraft has been successfully balanced and that the initial aircraft configuration is acceptable and can be built on in further elements, such as the design of the tailplane and undercarriage. 
+
+Throughout the design process, the CG was constantly tweaked. For example, after completing the fin and tailplane design, more accurate values for tailplane weight and position could be used and implemented in the CG balancing method. This meant that the overall aircraft balancing was constantly being tweaked by slightly moving components with constant weight throughout the flight. The values discussed in this report represent the final values once the design had been completed.  
+
 \subsection{Environmental Control Systems}
 \section{Secondary Tasks}
 \subsection{Aircraft Drag Prediction}
