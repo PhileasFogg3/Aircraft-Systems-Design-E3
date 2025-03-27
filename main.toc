@@ -8,13 +8,13 @@
 \contentsline {subsection}{\numberline {2.2}Design Overview}{5}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Primary Tasks}{5}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Initial Weight Estimation}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Centre of Gravity}{5}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Environmental Control Systems}{8}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Secondary Tasks}{8}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Aircraft Drag Prediction}{8}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Tail and Fin Design}{8}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Design Review}{8}{section.5}%
-\contentsline {section}{\numberline {6}Group Work Evaluation}{8}{section.6}%
-\contentsline {section}{\numberline {7}Conclusions}{8}{section.7}%
-\contentsline {section}{\numberline {8}Appendix}{8}{section.8}%
-\contentsline {subsection}{References}{8}{section*.5}%
+\contentsline {subsection}{\numberline {3.2}Centre of Gravity}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Environmental Control Systems}{12}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Secondary Tasks}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Aircraft Drag Prediction}{12}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Tail and Fin Design}{12}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Design Review}{12}{section.5}%
+\contentsline {section}{\numberline {6}Group Work Evaluation}{12}{section.6}%
+\contentsline {section}{\numberline {7}Conclusions}{12}{section.7}%
+\contentsline {section}{\numberline {8}Appendix}{12}{section.8}%
+\contentsline {subsection}{References}{12}{section*.7}%

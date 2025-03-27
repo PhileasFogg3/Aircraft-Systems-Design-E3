@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.16)  27 MAR 2025 13:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.16)  27 MAR 2025 20:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1278,43 +1278,52 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \tf@equ=\write11
 \openout11 = `main.equ'.
 
- [4]
+ [4] [5]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htb') on input line 103.
+
+[6]
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 83.
+(amsmath)                 on input line 121.
 
-[5] [6] [7]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htb') on input line 131.
+
+[7] [8] [9] [10]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 307.
+(hyperref)                be the same. Added a new anchor on input line 398.
 
 
-LaTeX Warning: Empty bibliography on input line 308.
+LaTeX Warning: Empty bibliography on input line 399.
 
-AED endfloat: Processing end Figures and Tables [8] (main.aux)
+AED endfloat: Processing end Figures and Tables [11] [12] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 988469884C7C3B8273EB81DD2190AE38;2693.
+(rerunfilecheck)             Checksum: 7F69DB133B0F2B9DA200B9E36D2C5A24;2693.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45719 strings out of 474486
- 1020667 string characters out of 5743282
- 2007664 words of memory out of 5000000
- 67263 multiletter control sequences out of 15000+600000
- 602748 words of font info for 91 fonts, out of 8000000 for 9000
+ 45754 strings out of 474486
+ 1021025 string characters out of 5743282
+ 2008817 words of memory out of 5000000
+ 67267 multiletter control sequences out of 15000+600000
+ 606708 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,21n,107p,780b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,21n,107p,900b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (8 pages, 115659 bytes).
+Output written on main.pdf (12 pages, 130499 bytes).
 PDF statistics:
- 195 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
+ 242 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
  165 words of extra memory for PDF output out of 10000 (max. 10000000)
 

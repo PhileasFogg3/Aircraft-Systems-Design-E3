@@ -75,6 +75,97 @@
 \subsection{Design Overview}
 \section{Primary Tasks}
 \subsection{Initial Weight Estimation}
+Once the aircraft concept had been completed and unanimously agreed to by the design team, the first task was to estimate the weights. As a reminder, the aircraft was designed to transport specialist cargo, such as medical supplies, and crew into disaster zones. To do this, the aircraft needs to:
+\begin{enumerate}
+    \item Have a high payload weight fraction and, 
+    \item Operate from short, improvised airfields.
+\end{enumerate}
+
+Therefore, the aircraft must weigh as little as possible while generating as much lift as possible with its wings. The goal of this element of the design is to tackle the first of those two characteristics. 
+
+It is well known that there is a complex relationship between aircraft range and weight. Logically, two aircraft of identical design will need different amounts of fuel depending on the distance they intend to travel. Therefore, it was quickly decided that aircraft range would not be a factor of primary concern. The aircraft is designed to transport specialty cargo into areas in need of immediate help, and it would be exceptionally useful if help cannot arrive by other methods of transportation such as road, rail or sea. The aircraft only needs to operate relatively short distances to and from a central hub or distribution centre to deliver aid to a local population. 
+
+The following parameters must be known in order to complete the weight estimation:
+\begin{enumerate}
+    \item Range (km)
+    \item Payload (Pax and Cargo)
+    \item Power to Weight (P/W) Ratio of the Engine (kW/kN)
+    \item Specific Fuel Capacity (SFC) of the Engine ((N/s)/kW)
+    \item Wing Aspect Ratio
+    \item Fuselage Diameter/Length
+    \item Weight per Pax (kg)
+\end{enumerate}
+
+Since the aircraft aims to primarily deliver aid supplies rather than transport people, the parameters were slightly modified to account for pallets of cargo that are one cubic meter in size, each capable of carrying 500kg. In addition to the cargo, the aircraft still aims to transport a small number of passengers; this was decided to be seven people maximum.
+
+The parameters related to the engine (P/W and SFC) were taken from known data for the engine selected to power the aircraft, specifically the Pratt and Whitney 127G. The mass of an average person was approximated to be 90kg, and the fuselage D/L was taken to be 0.13. The two parameters not yet discussed, aspect ratio and range, were the most changeable as the design process continued. In total, 10 different initial weight estimations were conducted, with different parameters, to settle on the most acceptable outcome, which will shortly be presented, but the final value for aspect ratio was taken to be 9, and range to be taken at 1000km (it was decided that this would be sufficient to transport supplies short distances into relief areas). Table 3.1 shows the final design values for weight estimation. 
+
+\begin{table}[]
+    \centering
+    \caption{Final values for weight estimation}
+    \label{tab:weight_estimation_table}
+    \begin{tabular}{@{}ccccccccc@{}}
+    \toprule
+    \textbf{Range} & \multicolumn{2}{c}{\textbf{Payload}} & \textbf{P/W} & \textbf{SFC} & \textbf{Aspect Ratio} & \textbf{D/L} & \multicolumn{2}{c}{\textbf{Payload Masses}} \\ \midrule
+    km           & Pax             & Pallets            & kW/kN        & (N/s)kW      &                       &              & Pax (kg)           & Pallets (kg)           \\
+    1000           & 7               & 4                  & 17.1         & 0.00076      & 9                     & 0.13         & 90                 & 500                    \\ \bottomrule
+    \end{tabular}
+\end{table}
+
+Before estimating the aircraft’s weight, the fuselage’s length, breadth and depth can be estimated by the following equations, where $x_p$ is the number of passengers and $x_c$ is the number of pallets (or crates): 
+\begin{equation}
+    Length = 10+0.237x_p + 1.2x_c \, ,
+\end{equation}
+\myequations{Equation to find the fuselage length.}
+\begin{equation}
+    Depth = Length \times {{D}\over{L}} \, ,
+\end{equation}
+\myequations{Equation to find the fuselage depth.}
+\begin{equation}
+    Breadth = Length \times {{D}\over{L}} \, ,
+\end{equation}
+\myequations{Equation to find the fuselage breadth.}
+
+With these equations in mind, the fuselage can therefore be estimated, with the results shown in Table 3.2. 
+
+\begin{table}[]
+    \centering
+    \caption{This table shows the estimated values for the fuselage.}
+    \label{tab:fuselage_estimate}
+    \begin{tabular}{@{}ccc@{}}
+    \toprule
+    \textbf{Length (m)} & \textbf{Breadth (m)} & \textbf{Depth (m)} \\ \midrule
+    16.62               & 2.2                  & 2.2                \\ \bottomrule
+    \end{tabular}
+\end{table}
+
+These values can then be used as a basis when the fuselage design is considered later in the design process. The fuel fraction, however, can now be calculated by the following equation: 
+\begin{equation}
+    ff = 1.046-e^{-0.3504 \times SFC\times {{Range}\over{\sqrt{AR}}}} \, ,
+\end{equation}
+\myequations{Equation to find the fuel fraction.}
+
+When this equation is applied to the values found in Table 3.1, the fuel fraction obtained is 0.131, rounded to 3 decimal places. This means that roughly 13\% of the aircraft's weight will be taken up by only the fuel needed to fly, assuming maximum takeoff weight. Similarly, the payload weight can be found by the equation:
+\begin{equation}
+    W_p (N) = g(x_p \times 90 + x_c \times 500 ) \, ,
+\end{equation}
+\myequations{Equation to find the payload weight.}
+
+Therefore, the payload weight is found to be 24.92kN. Next, the structural weight can be found, which uses the previously defined parameters for fuselage length, breadth and depth. This means that when the fuselage design has been completed, the weights can be re-estimated to find a more precise maximum takeoff weight. Structural weight is found by the following equation:
+
+\begin{equation}
+    W_s (N) = 0.15503 \left( L \times {{B \times D}\over{2}} \right)^{1.3909}
+\end{equation}
+\myequations{Equation to find the structural weight.}
+
+This means that the structural weight was found to be 23.15kN. Finally, the maximum takeoff weight can now be determined by the following equation: 
+
+\begin{equation}
+    W_{to} (kN) = {{5+W_p+W_s}\over{0.8-ff}}
+\end{equation}
+
+This means that the aircraft's maximum takeoff weight is 84.59kN, which definately falls within the requirements of EASA-Part 25 to be considered a large aeroplane (greater than 5700kg). Ultimately, this is a good design weight for the aircraft as it falls at the lower end of all the aircraft previously discussed in the market survey, while still being able to carry a sufficiently large payload weight. 
+
 \subsection{Centre of Gravity}
 Once the aircraft’s wings, fuselage, and weights have been estimated, balancing the centre of gravity is an excellent way to confirm whether the design choices up to that point were suitable. In addition, EASA Part 25 sets out several key parameters in order for the aircraft to be certifiable, most notably that the centre of gravity’s position must be no more than 50\% of the mean aerodynamic chord or less than 25\% of the mean aerodynamic chord. Furthermore, this must be true in both standard and extreme loading conditions to ensure the flight crew can fly the aircraft with relative ease. 
 
@@ -85,7 +176,7 @@ With this in mind, while noting the aircraft’s initial geometry and layout, th
 \myequations{Equation to find the aircraft's centre of gravity.}
 Where $m_x$ is the mass of a specific component and $x$ is the distance of that component from the datum. $m_{Total}$ is the total mass of all components onboard the aircraft.
 
-Table 3.1 shows the values used to calculate $X_{CG}$ assuming maximum fuel and payload. The values given for $m_x$ are as fractions of the aircraft’s maximum takeoff weight.
+Table 3.2 shows the values used to calculate $X_{CG}$ assuming maximum fuel and payload. The values given for $m_x$ are as fractions of the aircraft’s maximum takeoff weight.
 
 \begin{table}[H]
     \centering
@@ -109,7 +200,7 @@ Table 3.1 shows the values used to calculate $X_{CG}$ assuming maximum fuel and 
     \end{tabular}
 \end{table}
 
-Therefore, when applying Equation 3.1, the centre of gravity position is found to be 6.93m from the aircraft’s nose.
+Therefore, when applying Equation 3.4, the centre of gravity position is found to be 6.93m from the aircraft’s nose.
 
 At this stage, it's important to consider how some components' mass will change in flight while others will not. For example, the mass of the aircraft's fuel tanks will decrease during the flight as fuel is burned. However, an aircraft's undercarriage will remain at a constant weight throughout the flight. This is an important consideration to make when tweaking component positions in order to gain a suitable $X_{CG}$ position.
 
