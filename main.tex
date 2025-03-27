@@ -386,6 +386,117 @@ Figure 3.1 ultimately shows that no matter the aircraft's loading configuration,
 Throughout the design process, the CG was constantly tweaked. For example, after completing the fin and tailplane design, more accurate values for tailplane weight and position could be used and implemented in the CG balancing method. This meant that the overall aircraft balancing was constantly being tweaked by slightly moving components with constant weight throughout the flight. The values discussed in this report represent the final values once the design had been completed.  
 
 \subsection{Environmental Control Systems}
+Environmental Control systems are crucial to ensure that passengers remain not only comfortable but alive during extended periods at high altitudes. Of course, the aircraft that is being designed is primarily for the transportation of equipment and supplies, but even then, they must be kept at a regulated temperature to ensure that they are free from damage when ready for use. While EASA does not have any particular requirements for environmental control systems, most modern aircraft maintain approximately 10 cubic feet per minute per passenger. This will be a design goal that is kept in mind throughout this process. 
+
+The following two subsections are dedicated to evaluating the fuselage’s skin temperature in various conditions so that heat loading can be calculated for the aircraft in those same conditions. 
+\subsubsection{Airfield Condition}
+When aircraft are on the ground at an airfield, the cabin temperature will be maintained to create a comfortable environment. For the purposes of these calculations, two extreme conditions will be considered: a hot day ($45 \degree$) without wind and a cold day ($-20 \degree$) without wind. These two conditions will see the environmental control systems work at their hardest, as in the presence of wind, some natural cooling will occur due to decreased fuselage skin temperature. The following parameters are used in this set of calculations:
+\begin{table}[]
+    \centering
+    \caption{This table shows the parameters used when calculating the skin temperature on hot and cold days}
+    \label{tab:ecs_airfield_parameters}
+    \begin{tabular}{@{}cc@{}}
+    \toprule
+    Skin Temperature          & $T_s$ \\ 
+    Cabin Temperature         & $T_c$ \\
+    Ambient Temperature       & $T_1$ \\
+    Heat Transfer Coefficient & $U_f$ \\ \bottomrule
+    \end{tabular}
+\end{table}
+These parameters are then applied to Equations 3.10 and 3.11 for a cold and hot day, respectively, where $U_f$ takes the value of 2.44. 
+\begin{equation}
+    1.25(T_s-T_1)^{1.33} + U_f(T_s-T_c) = 0 \, ,
+\end{equation}
+\myequations{Airfield Condition - Cold Day Equation to find $T_s$}
+\begin{equation}
+    1.25(T_s-T_1)^{1.33} + U_f(T_s-T_c) = 90 \, ,
+\end{equation}
+\myequations{Airfield Condition - Hot Day Equation to find $T_s$}
+
+On both days, the objective is to solve the equations for $T_s$ by iteration so that the left-hand side is approximately equal to their respective values. After much mathematics, it was found that on a hot day, the value of $T_s$ is roughly equal to $50.2905\degree C$ and on a cold day, the value of $T_s$ is approximately $-1.439\degree C$. An example of these iterative calculations can be seen in in Figures 3.2 (hot day) and Figures 3.3 (cold day).
+
+\begin{figure}[H]
+    \caption{The iterative process used to find the value of $T_s$ on a hot day, in airfield condition.}
+    \label{fig:ecs_hot}
+    \centering
+    \includegraphics[width=1.1\textwidth]{pictures/ECS_hot_iteration.jpg}
+\end{figure}
+
+\begin{figure}[H]
+    \caption{The iterative process used to find the value of $T_s$ on a cold day, in airfield condition.}
+    \label{fig:ecs_cold}
+    \centering
+    \includegraphics[width=1.1\textwidth]{pictures/ECS_cold_iteration.jpg}
+\end{figure}
+
+\subsubsection{Inflight Condition}
+When calculating a value for $T_s$ in flight, the mathematical approach is much simpler, as no iterative processes are needed, unlike in the airfield condition. However, it is much more calculation heavy, as the skin temperature will depend on both the aircraft’s cruising speed and altitude. In flight, the heat transfer through the cabin walls is convected to flow around the aircraft. The mathematical expression for this involves Reynold’s analogy between heat transfer and skin friction, which is expressed in terms of the Stanton Number, $S_t$, as seen in Equation 3.12.  
+\begin{equation}
+    S_t = {{q}\over{\rho u C_p (T_r-T_s)}} \, ,
+\end{equation}
+\myequations{Equation for Stanton Number $T_s$.}
+
+Where $q$ is equal to the heat transfer per unit area of skin and $T_r$ is the recovery temperature of the skin surface. The equation for $T_r$ is seen in Equation 3.13. In addition, $q$ can be expressed by Equation 3.14, where $S_f$ is the fuselage surface area where heat transfer takes place.
+
+\begin{equation}
+    T_r = T_1 (1+0.18M^2) \, ,
+\end{equation}
+\myequations{The equation for the recovery temperature $T_r$.}
+\begin{equation}
+    q = {{Q}\over{S_f}} = U_f(T_s-T_c) \, ,
+\end{equation}
+\myequations{The equation for the heat transfer per unit area of skin $q$.}
+
+This means that an equation for $T_s$ can be constructed, assuming that the Stanton number can be evaluated differently. This is the case, as the Stanton number can be found using the relationship between the average skin friction coefficient ($C_F$) and the Prandtl number ($\sigma$), which is normally taken as 0.72 in air, and is shown in Equation 3.15.
+
+\begin{equation}
+    S_t = {{C_F}\over{2\sigma ^{{2}\over{3}}}} \, ,
+\end{equation}
+\myequations{The equation for the Stanton Number in terms of $C_F$ and $\sigma$.}
+
+The average skin friction coefficient can be found using the Prandtl-Schlichting relationship (Equation 3.17), using the Reynold's number based on fuselage length ($R_L$), which is given by Equation 3.16.
+
+\begin{equation}
+    R_L = {{\rho uL}\over{\mu}} \, ,
+\end{equation}
+\myequations{Equation based for the Reynolds number based on the Fuselage length.}
+\begin{equation}
+    C_F = 0.455(1-0.1M)(log_{10}R_L)^{-2.58} \, ,
+\end{equation}
+Finally, this means that the equation for $T_s$ in terms of the Stanton Number can be constructed, as shown in Equation 3.18.
+
+\begin{equation}
+    T_S = {{S_t \rho u C_p T_r + U_f T_c}\over{U_f + S_t \rho u C_p}} \, ,
+\end{equation}
+
+Therefore, considering a cruising speed of 140 meters per second and a fuselage length of 16.62 meters, $C_F$ can be calculated using Equation 3.17 and a value of 0.002143 is obtained. This means that the Stanton Number can be evaluated using Equation 3.15, and a value of 0.001334 is obtained. At a cruising altitude of twenty thousand feet, the ambient temperature is approximately -27.1$\degree C$, therefore, using Equation 3.13, the recovery temperature is found to be -28.05$\degree C$. Finally, this means that the skin temperature can be obtained using Equation 3.18, assuming the value of $T_c$ is cool at approximately 18$\degree C$, the value of the skin temperature is -27.06$\degree C$.  
+
+\subsubsection{Calculating Heat Load}
+
+Now that the skin temperature values have been obtained in the three different conditions, the heat load of the Environmental Control system can be calculated for each. Heat loading, $Q$, is given by Equation 3.19, where $N_p$ is the number of passengers (7), ${{D}\over{L}}
+$ is the drag to lift ratio, ${{W_p}\over{W}}$ is the payload weight to weight ratio, and V is the cruise speed. 
+
+\begin{equation}
+    Q = U_f S_f (T_s-T_c) + 450 \times 2.2 + 4.75N_p(39.8-T_c) + 0.001 {{D}\over{L}}{{W_p}\over{W}}VW_p \, ,
+\end{equation}
+
+Table 3.5 shows the various heat loads and their respective skin temperatures.
+
+\begin{table}[H]
+    \centering
+    \caption{This table shows the heat loads for different skin temperatures and conditions}
+    \label{tab:ecs_final}
+    \begin{tabular}{@{}ccc@{}}
+    \toprule
+    \textbf{Skin Temperature $T_s$ ($\degree C$} & \textbf{Heat Load Q (W)} & \textbf{Condition} \\ \midrule
+    -1.44                                        & -5151.02                 & Airfield Cold      \\
+    50.29                                        & 11943.91                 & Airfield Hot       \\
+    -27.06                                       & -11170.12                & Cruising           \\ \bottomrule
+    \end{tabular}
+\end{table}
+
+These values are acceptable for the heat loading of the aircraft’s environmental control system, and if given the chance to do further design work, additional analysis could be performed on what impact these heat loads have on the overall electronic system of the aircraft. 
+
 \section{Secondary Tasks}
 \subsection{Aircraft Drag Prediction}
 \subsection{Tail and Fin Design}

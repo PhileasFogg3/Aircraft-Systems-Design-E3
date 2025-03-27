@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1743107356.66366 0
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1743115163.4717 0
   "bibliography.bib" 0 -1 0 ""
   "main.bcf" 0 -1 0 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1743107354.50181 "c:/Users/Philip/Documents/GitHub/Aircraft-Systems-Design-E3/main.tex" "main.pdf" "main" 1743107356.66468 0
+["pdflatex"] 1743115161.15628 "c:/Users/Philip/Documents/GitHub/Aircraft-Systems-Design-E3/main.tex" "main.pdf" "main" 1743115163.47291 0
   "C:/Users/Philip/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1742162138 84158 d77284a6843bde1e4b9764f09fb2e89e ""
   "C:/Users/Philip/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1732051632 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/Philip/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1729090666 24225519 46631a488c28f229b1b475d4285413ca ""
@@ -16,6 +16,8 @@
   "C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmb7t.tfm" 1136772254 2172 fd0c924230362ff848a33632ed45dc23 ""
   "C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmb8r.tfm" 1136772254 4524 6bce29db5bc272ba5f332261583fee9c ""
   "C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmb8t.tfm" 1136772254 6880 f19b8995b61c334d78fc734065f6b4d4 ""
+  "C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmbi8r.tfm" 1136772254 4480 10409ed8bab5aea9ec9a78028b763919 ""
+  "C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmbi8t.tfm" 1136772254 6784 37b32cc10800b5afa030d935c393695a ""
   "C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmr8r.tfm" 1136772254 4408 25b74d011a4c66b7f212c0cc3c90061b ""
   "C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmr8t.tfm" 1136772254 6672 e3ab9e37e925f3045c9005e6d1473d56 ""
   "C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmri7t.tfm" 1136772254 2288 f478fc8fed18759effb59f3dad7f3084 ""
@@ -44,9 +46,11 @@
   "C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb" 1136853348 33709 b09d2e140b7e807d3a97058263ab6693 ""
   "C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb" 1136853348 44729 fea0975e20ec51c992338362f05f1146 ""
+  "C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb" 1136853348 44656 0cbca70e0534538582128f6b54593cca ""
   "C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb" 1136853348 46026 687528a208fbfc1f00832bb96cccebbb ""
   "C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb" 1136853348 45458 504e2b06fa82109d168c7a0afb09e145 ""
   "C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/times/ptmb8t.vf" 1136772254 2340 df9c920cc5688ebbf16a93f45ce7bdd3 ""
+  "C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/times/ptmbi8t.vf" 1136772254 2324 51908dae6e03953a90119973962f0e4d ""
   "C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/times/ptmr8t.vf" 1136772254 2348 91706c542228501c410c266421fbe30c ""
   "C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/times/ptmri8t.vf" 1136772254 2328 6cd7df782b09b29cfc4d93e55b6b9a59 ""
   "C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/vf/adobe/times/zptmcm7m.vf" 1136772254 1132 27520247d3fe18d4266a226b461885c2 ""
@@ -276,16 +280,18 @@
   "C:/Users/Philip/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1700599895 10214 547fd4d29642cb7c80bf54b49d447f01 ""
   "C:/Users/Philip/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Philip/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/Philip/Documents/GitHub/Aircraft-Systems-Design-E3/main.tex" 1743107353 19726 5d840d0fc9901a072cfd91b246b45def ""
-  "main.aux" 1743107356 5081 a527b3df9234e81d63df5e503ae67c0c "pdflatex"
+  "c:/Users/Philip/Documents/GitHub/Aircraft-Systems-Design-E3/main.tex" 1743115160 27868 cc75999ccf2ce20887359c6ca3aa7be1 ""
+  "main.aux" 1743115162 8076 f609685aca8454e17a8b8eb497793cb8 "pdflatex"
   "main.bbl" 0 -1 0 "biber main"
-  "main.equ" 1743107356 863 425f7f82f524d61c45e4dafb832d557a "pdflatex"
-  "main.lof" 1743107356 159 a44d9faa779f30ae7a858357663803db "pdflatex"
-  "main.lot" 1743107356 496 258781abe9e63032569236d4074c1eb7 "pdflatex"
-  "main.out" 1743107356 2693 7f69db133b0f2b9da200b9e36d2c5a24 "pdflatex"
-  "main.run.xml" 1743107356 2429 0b0ec1e900c0669f709b87f77ae472e2 "pdflatex"
-  "main.tex" 1743107353 19726 5d840d0fc9901a072cfd91b246b45def ""
-  "main.toc" 1743107356 1462 900c56855152b9ae789dc9f9faa1811e "pdflatex"
+  "main.equ" 1743115162 1723 409db1a663bca88564743a6128d00f40 "pdflatex"
+  "main.lof" 1743115162 502 b6b20b04c994deb70b7d379234c2620a "pdflatex"
+  "main.lot" 1743115162 829 37ac3cda2e681f3f7b70e0f004c74646 "pdflatex"
+  "main.out" 1743115162 3195 6d8ff1c3e8b9d7e41718db473198441a "pdflatex"
+  "main.run.xml" 1743115162 2429 0b0ec1e900c0669f709b87f77ae472e2 "pdflatex"
+  "main.tex" 1743115160 27868 cc75999ccf2ce20887359c6ca3aa7be1 ""
+  "main.toc" 1743115162 1752 1f4842e44abea754edf325201be94d0e "pdflatex"
+  "pictures/ECS_cold_iteration.jpg" 1743110062 119678 e1c0fe5dbb0e3702ffbcaebe0363f0bd ""
+  "pictures/ECS_hot_iteration.jpg" 1743110043 152200 c03a3dc7dedb254ae079dc6eef14027c ""
   (generated)
   "main.aux"
   "main.bcf"

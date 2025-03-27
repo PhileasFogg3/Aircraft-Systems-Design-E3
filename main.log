@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.16)  27 MAR 2025 20:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.16)  27 MAR 2025 22:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1266,7 +1266,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \tf@toc=\write8
 \openout8 = `main.toc'.
 
- [3] (main.lof)
+ [3] [4] (main.lof)
 \tf@lof=\write9
 \openout9 = `main.lof'.
 
@@ -1274,16 +1274,16 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \tf@lot=\write10
 \openout10 = `main.lot'.
 
- (main.equ)
+ (main.equ [5])
 \tf@equ=\write11
 \openout11 = `main.equ'.
 
- [4] [5]
+ [6] [7]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `htb') on input line 103.
 
-[6]
+[8]
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
@@ -1293,37 +1293,63 @@ Package amsmath Warning: Foreign command \over;
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `htb') on input line 131.
 
-[7] [8] [9] [10]
+[9] [10] [11] [12] [13]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htb') on input line 394.
+
+[14]
+<pictures/ECS_hot_iteration.jpg, id=242, 1641.13126pt x 237.13594pt>
+File: pictures/ECS_hot_iteration.jpg Graphic file (type jpg)
+<use pictures/ECS_hot_iteration.jpg>
+Package pdftex.def Info: pictures/ECS_hot_iteration.jpg  used on input line 422.
+(pdftex.def)             Requested size: 498.26744pt x 71.99525pt.
+
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 422--423
+ [][] 
+ []
+
+<pictures/ECS_cold_iteration.jpg, id=243, 1623.06375pt x 231.86626pt>
+File: pictures/ECS_cold_iteration.jpg Graphic file (type jpg)
+<use pictures/ECS_cold_iteration.jpg>
+Package pdftex.def Info: pictures/ECS_cold_iteration.jpg  used on input line 429.
+(pdftex.def)             Requested size: 498.26744pt x 71.1808pt.
+
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 429--430
+ [][] 
+ []
+
+[15 <./pictures/ECS_hot_iteration.jpg> <./pictures/ECS_cold_iteration.jpg>] [16] [17]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 398.
+(hyperref)                be the same. Added a new anchor on input line 509.
 
 
-LaTeX Warning: Empty bibliography on input line 399.
+LaTeX Warning: Empty bibliography on input line 510.
 
-AED endfloat: Processing end Figures and Tables [11] [12] (main.aux)
+AED endfloat: Processing end Figures and Tables [18] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7F69DB133B0F2B9DA200B9E36D2C5A24;2693.
+(rerunfilecheck)             Checksum: 6D8FF1C3E8B9D7E41718DB473198441A;3195.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45754 strings out of 474486
- 1021025 string characters out of 5743282
- 2008817 words of memory out of 5000000
- 67267 multiletter control sequences out of 15000+600000
- 606708 words of font info for 100 fonts, out of 8000000 for 9000
+ 45802 strings out of 474486
+ 1022009 string characters out of 5743282
+ 2008304 words of memory out of 5000000
+ 67289 multiletter control sequences out of 15000+600000
+ 609776 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,21n,107p,900b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (12 pages, 130498 bytes).
+<C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (18 pages, 439389 bytes).
 PDF statistics:
- 242 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
- 165 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 325 PDF objects out of 1000 (max. 8388607)
+ 76 named destinations out of 1000 (max. 500000)
+ 199 words of extra memory for PDF output out of 10000 (max. 10000000)
 
