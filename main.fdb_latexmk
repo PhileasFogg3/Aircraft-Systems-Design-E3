@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1743154660.21574 "main.bcf" "main.bbl" "main" 1743156465.75311 0
+["biber main"] 1743154660.21574 "main.bcf" "main.bbl" "main" 1743161441.26712 0
   "bibliography.bib" 1743127138 271 f69567cbcb8e06558edfc92db7a19da5 ""
-  "main.bcf" 1743156465 132513 d9793be8214c55d43203b88171368efa "pdflatex"
+  "main.bcf" 1743161440 132513 d9793be8214c55d43203b88171368efa "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1743156463.62221 "c:/Users/Philip/Documents/GitHub/Aircraft-Systems-Design-E3/main.tex" "main.pdf" "main" 1743156465.75398 0
+["pdflatex"] 1743161439.09587 "c:/Users/Philip/Documents/GitHub/Aircraft-Systems-Design-E3/main.tex" "main.pdf" "main" 1743161441.26799 0
   "C:/Users/Philip/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1742162138 84158 d77284a6843bde1e4b9764f09fb2e89e ""
   "C:/Users/Philip/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1732051632 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/Philip/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1729090666 24225519 46631a488c28f229b1b475d4285413ca ""
@@ -283,16 +283,17 @@
   "C:/Users/Philip/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1700599895 10214 547fd4d29642cb7c80bf54b49d447f01 ""
   "C:/Users/Philip/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Philip/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/Philip/Documents/GitHub/Aircraft-Systems-Design-E3/main.tex" 1743156462 45005 35daa990c76d2b77a1230f5266c6d5fe ""
-  "main.aux" 1743156465 13654 98572a6f85921768f084acf2cc85d6ba "pdflatex"
+  "c:/Users/Philip/Documents/GitHub/Aircraft-Systems-Design-E3/main.tex" 1743161436 48795 6dc2cbb51758e6720098f2d7ce328f7c ""
+  "main.aux" 1743161440 14097 464af241d1bc269dc3128127dedace44 "pdflatex"
   "main.bbl" 1743154662 2991 117be5b558b6e2068d69879d258aa329 "biber main"
-  "main.equ" 1743156465 2906 8fb27e24b97ea4488fecf02c09086ad1 "pdflatex"
-  "main.lof" 1743156465 1506 9c49a7fab0dd7733431fb63c0905123e "pdflatex"
-  "main.lot" 1743156465 1476 58dacfc81dfcdc362891668a7bca9508 "pdflatex"
-  "main.out" 1743156465 3356 9eac8f9ae783fc6ce97d7fa6975db7c4 "pdflatex"
-  "main.run.xml" 1743156465 2429 0b0ec1e900c0669f709b87f77ae472e2 "pdflatex"
-  "main.tex" 1743156462 45005 35daa990c76d2b77a1230f5266c6d5fe ""
-  "main.toc" 1743156465 1841 5cc87134620d57d148257e7442fb82b0 "pdflatex"
+  "main.equ" 1743161440 3019 b7b10d6af658b331c7472cf626d3a18c "pdflatex"
+  "main.lof" 1743161440 1645 7a564707329e0c7faae99c2b38c88ffe "pdflatex"
+  "main.lot" 1743161440 1476 58dacfc81dfcdc362891668a7bca9508 "pdflatex"
+  "main.out" 1743161440 3356 0cd23a1206c8b41fc173a2639c20fe57 "pdflatex"
+  "main.run.xml" 1743161440 2429 0b0ec1e900c0669f709b87f77ae472e2 "pdflatex"
+  "main.tex" 1743161436 48795 6dc2cbb51758e6720098f2d7ce328f7c ""
+  "main.toc" 1743161440 1841 9f63cf22ebf38328db272d503c6c0c4f "pdflatex"
+  "pictures/BFL_CL.jpg" 1743161383 211421 fd2e5c5fed4c76738c4842c1f10f3b77 ""
   "pictures/ECS_cold_iteration.jpg" 1743110062 119678 e1c0fe5dbb0e3702ffbcaebe0363f0bd ""
   "pictures/ECS_hot_iteration.jpg" 1743110043 152200 c03a3dc7dedb254ae079dc6eef14027c ""
   "pictures/market_survey_detailed_1.jpg" 1743127781 166484 e06cebb11f360dde656a0111d5d14d93 ""

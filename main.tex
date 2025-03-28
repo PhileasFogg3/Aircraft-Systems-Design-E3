@@ -718,6 +718,31 @@ Now that all the equations have been defined, the coefficient of drag can be cal
 These values are sufficiently close to those calculated by the primary designer for the aircraft drag prediction. This process cannot comment on the choices made by the primary designer as this element of the design process is purely analytical, which attempts to identify if the aircraft performs with an acceptable drag component. However, this process can reasonably say that the primary designer performed the calculations correctly and to a high degree of accuracy as the values obtained by the independent methods are within a reasonable degree of accuracy of one another.   
 \subsection{Tail and Fin Design}
 \subsection{Airfield Performance}
+Similarly to Chapter 4.1, when assessing airfield performance in the role of a secondary, the goal is to not comment on design choices made as no unique decisions are made at this phase of design. Instead, the performance of the aircraft is estimated based on its design values by a numerical analysis. The goal of said analysis is to obtain values for:
+\begin{enumerate}
+    \item Aircraft Landing distance, in meters, 
+    \item Aircraft takeoff distance, in meters,
+    \item Aircraft climb out angle, in degrees, for an all engine case and an engine failure case.
+\end{enumerate}
+
+Furthermore, it is important that these parameters comply with EASA Part-25 regulations for airfield performance. In particular, EASA states that in an engine failure situation, the minimum climb out angle for a large aeroplane is 1.38 $\degree$. This design phase is the final checkpoint for the aircraft designed for this project and will ultimately inform the design team if the design objectives have been met. After some mathematical analysis, the takeoff speed for the aircraft is found to be 44m/s and is found by Equation 4.X. 
+\begin{equation}
+    V_{TO} = \sqrt{{{2W/S}\over{\rho (C_L)_{max}}}} \, ,
+\end{equation}
+\myequations{Equation to find takeoff speed of the aircraft.}
+Also, the takeoff field length is found to be 339m, with an abort takeoff distance of 204m. This means that the speed for $V_1$ will be set so that there is always a minimum distance of 204m so that the aircraft can stop safely. In the event of an engine failure past the point of $V_1$, the takeoff distance will naturally increase, in this case to a distance of 892m, which takes the value of the Balanced Field Length. This is the minimum safe distance that an aircraft can take off at as there should always be preparations for an aborted takeoff or engine failure past the point of no return. These values are sufficiently close to those calculated by the primary designer at this stage, and therefore, there is a high level of confidence that they are the true, correct values for the aircraft.
+
+mportantly, the climb-out angle for the aircraft was also calculated, both for an engine failure and for normal takeoff conditions. In normal takeoff conditions, the climb out angle was calculated to be 12 $\degree$, whereas in an engine failure condition, the climb out angle was found to be 1.53 $\degree$. Importantly, these values are both sufficiently close to those calculated by the primary designer but also completely comply with EASA Part-25 requirements for large aeroplanes.
+
+Finally, the landing distance, with included factor of safety, was found to be 1005m. Again, this value is sufficiently close to the one calculated by the primary designer.
+
+There is a high level of confidence in the calculated airfield performance of the aircraft as the primary and secondary designers have made similar conclusions based on the values obtained. While the climb-out angles are very good in both conditions, the landing and takeoff distance values are slightly higher than ideal, considering the aircraft’s goal was to operate to and from damaged or makeshift airfields in hazardous areas. If given the ability to complete further study, the secondary designer’s recommendation would be to tweak certain aircraft parameters, such as increasing the coefficient of lift due to flaps extended at takeoff and landing. This is because Figure 4.X shows an inverse exponential relationship between $C_L$ and Balanced Field Length; as $C_L$ increases, the Balanced Field length decreases.
+\begin{figure}[H]
+    \caption{The relationship between balanced field length and $C_L$.}
+    \label{fig:BFL}
+    \centering
+    \includegraphics[width=1.1\textwidth]{pictures/BFL_CL.jpg}
+\end{figure}
 \section{Design Review}
 \section{Group Work Evaluation}
 \section{Conclusions}
