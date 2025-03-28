@@ -1,27 +1,27 @@
-\contentsline {myequations}{\numberline {2.1}Equation to find the fuselage length.}{14}{equation.2.1}%
-\contentsline {myequations}{\numberline {2.2}Equation to find the fuselage depth.}{15}{equation.2.2}%
-\contentsline {myequations}{\numberline {2.3}Equation to find the fuselage breadth.}{15}{equation.2.3}%
-\contentsline {myequations}{\numberline {2.4}Equation to find the fuel fraction.}{15}{equation.2.4}%
-\contentsline {myequations}{\numberline {2.5}Equation to find the payload weight.}{15}{equation.2.5}%
-\contentsline {myequations}{\numberline {2.6}Equation to find the structural weight.}{16}{equation.2.6}%
-\contentsline {myequations}{\numberline {2.8}Equation to find the aircraft's centre of gravity.}{16}{equation.2.8}%
-\contentsline {myequations}{\numberline {2.9}Equation to find the aircraft's centre of gravity as a fraction of MAC.}{18}{equation.2.9}%
-\contentsline {myequations}{\numberline {2.10}Airfield Condition - Cold Day Equation to find $T_s$}{21}{equation.2.10}%
-\contentsline {myequations}{\numberline {2.11}Airfield Condition - Hot Day Equation to find $T_s$}{21}{equation.2.11}%
-\contentsline {myequations}{\numberline {2.12}Equation for Stanton Number $T_s$.}{22}{equation.2.12}%
-\contentsline {myequations}{\numberline {2.13}The equation for the recovery temperature $T_r$.}{22}{equation.2.13}%
-\contentsline {myequations}{\numberline {2.14}The equation for the heat transfer per unit area of skin $q$.}{22}{equation.2.14}%
-\contentsline {myequations}{\numberline {2.15}The equation for the Stanton Number in terms of $C_F$ and $\sigma $.}{22}{equation.2.15}%
-\contentsline {myequations}{\numberline {2.16}Equation based for the Reynolds number based on the Fuselage length.}{22}{equation.2.16}%
-\contentsline {myequations}{\numberline {2.20}The equation to find $\dot m_{ecs}$.}{24}{equation.2.20}%
-\contentsline {myequations}{\numberline {2.21}The equation to find $\dot m_{r}$.}{24}{equation.2.21}%
-\contentsline {myequations}{\numberline {3.1}The equation to find the wing drag area.}{27}{equation.3.1}%
-\contentsline {myequations}{\numberline {3.2}The equation to find the fuselage drag area.}{27}{equation.3.2}%
-\contentsline {myequations}{\numberline {3.3}The equation to find the nacelle drag area.}{27}{equation.3.3}%
-\contentsline {myequations}{\numberline {3.4}The equation to find the overall drag area.}{27}{equation.3.4}%
-\contentsline {myequations}{\numberline {3.5}The equation to find the clean drag coefficient.}{28}{equation.3.5}%
-\contentsline {myequations}{\numberline {3.6}The equation to find the drag coefficient incuded by undercarriage deployment.}{28}{equation.3.6}%
-\contentsline {myequations}{\numberline {3.7}The equation to find the drag coefficient incuded by flaps during takeoff.}{28}{equation.3.7}%
-\contentsline {myequations}{\numberline {3.8}The equation to find the drag coefficient incuded by flaps during landing.}{28}{equation.3.8}%
-\contentsline {myequations}{\numberline {3.9}The equation for Fin Volume Coefficient.}{31}{equation.3.9}%
-\contentsline {myequations}{\numberline {3.10}Equation to find takeoff speed of the aircraft.}{32}{equation.3.10}%
+\contentsline {myequations}{\numberline {2.1}Equation to find the fuselage length.}{13}{equation.2.1}%
+\contentsline {myequations}{\numberline {2.2}Equation to find the fuselage depth.}{14}{equation.2.2}%
+\contentsline {myequations}{\numberline {2.3}Equation to find the fuselage breadth.}{14}{equation.2.3}%
+\contentsline {myequations}{\numberline {2.4}Equation to find the fuel fraction.}{14}{equation.2.4}%
+\contentsline {myequations}{\numberline {2.5}Equation to find the payload weight.}{14}{equation.2.5}%
+\contentsline {myequations}{\numberline {2.6}Equation to find the structural weight.}{15}{equation.2.6}%
+\contentsline {myequations}{\numberline {2.8}Equation to find the aircraft's centre of gravity.}{15}{equation.2.8}%
+\contentsline {myequations}{\numberline {2.9}Equation to find the aircraft's centre of gravity as a fraction of MAC.}{17}{equation.2.9}%
+\contentsline {myequations}{\numberline {2.10}Airfield Condition - Cold Day Equation to find $T_s$}{20}{equation.2.10}%
+\contentsline {myequations}{\numberline {2.11}Airfield Condition - Hot Day Equation to find $T_s$}{20}{equation.2.11}%
+\contentsline {myequations}{\numberline {2.12}Equation for Stanton Number $T_s$.}{21}{equation.2.12}%
+\contentsline {myequations}{\numberline {2.13}The equation for the recovery temperature $T_r$.}{21}{equation.2.13}%
+\contentsline {myequations}{\numberline {2.14}The equation for the heat transfer per unit area of skin $q$.}{21}{equation.2.14}%
+\contentsline {myequations}{\numberline {2.15}The equation for the Stanton Number in terms of $C_F$ and $\sigma $.}{21}{equation.2.15}%
+\contentsline {myequations}{\numberline {2.16}Equation based for the Reynolds number based on the Fuselage length.}{21}{equation.2.16}%
+\contentsline {myequations}{\numberline {2.20}The equation to find $\dot m_{ecs}$.}{23}{equation.2.20}%
+\contentsline {myequations}{\numberline {2.21}The equation to find $\dot m_{r}$.}{23}{equation.2.21}%
+\contentsline {myequations}{\numberline {3.1}The equation to find the wing drag area.}{26}{equation.3.1}%
+\contentsline {myequations}{\numberline {3.2}The equation to find the fuselage drag area.}{26}{equation.3.2}%
+\contentsline {myequations}{\numberline {3.3}The equation to find the nacelle drag area.}{26}{equation.3.3}%
+\contentsline {myequations}{\numberline {3.4}The equation to find the overall drag area.}{26}{equation.3.4}%
+\contentsline {myequations}{\numberline {3.5}The equation to find the clean drag coefficient.}{27}{equation.3.5}%
+\contentsline {myequations}{\numberline {3.6}The equation to find the drag coefficient incuded by undercarriage deployment.}{27}{equation.3.6}%
+\contentsline {myequations}{\numberline {3.7}The equation to find the drag coefficient incuded by flaps during takeoff.}{27}{equation.3.7}%
+\contentsline {myequations}{\numberline {3.8}The equation to find the drag coefficient incuded by flaps during landing.}{27}{equation.3.8}%
+\contentsline {myequations}{\numberline {3.9}The equation for Fin Volume Coefficient.}{30}{equation.3.9}%
+\contentsline {myequations}{\numberline {3.10}Equation to find takeoff speed of the aircraft.}{31}{equation.3.10}%
