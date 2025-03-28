@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.16)  28 MAR 2025 00:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.16)  28 MAR 2025 01:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1299,7 +1299,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `htb') on input line 395.
 
 [14]
-<pictures/ECS_hot_iteration.jpg, id=242, 1641.13126pt x 237.13594pt>
+<pictures/ECS_hot_iteration.jpg, id=248, 1641.13126pt x 237.13594pt>
 File: pictures/ECS_hot_iteration.jpg Graphic file (type jpg)
 <use pictures/ECS_hot_iteration.jpg>
 Package pdftex.def Info: pictures/ECS_hot_iteration.jpg  used on input line 423.
@@ -1309,7 +1309,7 @@ Overfull \hbox (45.29955pt too wide) in paragraph at lines 423--424
  [][] 
  []
 
-<pictures/ECS_cold_iteration.jpg, id=243, 1623.06375pt x 231.86626pt>
+<pictures/ECS_cold_iteration.jpg, id=249, 1623.06375pt x 231.86626pt>
 File: pictures/ECS_cold_iteration.jpg Graphic file (type jpg)
 <use pictures/ECS_cold_iteration.jpg>
 Package pdftex.def Info: pictures/ECS_cold_iteration.jpg  used on input line 430.
@@ -1321,35 +1321,40 @@ Overfull \hbox (45.29955pt too wide) in paragraph at lines 430--431
 
 [15 <./pictures/ECS_hot_iteration.jpg> <./pictures/ECS_cold_iteration.jpg>] [16] [17]
 
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htb') on input line 512.
+
+[18]
+
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 511.
+(hyperref)                be the same. Added a new anchor on input line 537.
 
 
-LaTeX Warning: Empty bibliography on input line 512.
+LaTeX Warning: Empty bibliography on input line 538.
 
-AED endfloat: Processing end Figures and Tables [18] (main.aux)
+AED endfloat: Processing end Figures and Tables [19] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6D8FF1C3E8B9D7E41718DB473198441A;3195.
+(rerunfilecheck)             Checksum: 515B7E6D9C07B18BBFD3ADB4E3EA9005;3195.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45802 strings out of 474486
- 1022009 string characters out of 5743282
- 2008303 words of memory out of 5000000
- 67289 multiletter control sequences out of 15000+600000
+ 45807 strings out of 474486
+ 1022078 string characters out of 5743282
+ 2008407 words of memory out of 5000000
+ 67290 multiletter control sequences out of 15000+600000
  609776 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,21n,107p,900b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (18 pages, 439892 bytes).
+Output written on main.pdf (19 pages, 443190 bytes).
 PDF statistics:
- 325 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
+ 337 PDF objects out of 1000 (max. 8388607)
+ 80 named destinations out of 1000 (max. 500000)
  199 words of extra memory for PDF output out of 10000 (max. 10000000)
 

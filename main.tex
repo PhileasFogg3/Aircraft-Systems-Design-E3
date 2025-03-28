@@ -489,14 +489,40 @@ Table 3.5 shows the various heat loads and their respective skin temperatures.
     \label{tab:ecs_final}
     \begin{tabular}{@{}ccc@{}}
     \toprule
-    \textbf{Skin Temperature $T_s$ ($\degree C$} & \textbf{Heat Load Q (W)} & \textbf{Condition} \\ \midrule
+    \textbf{Skin Temperature $T_s$ ($\degree C$)} & \textbf{Heat Load Q (W)} & \textbf{Condition} \\ \midrule
     -1.44                                        & -5151.02                 & Airfield Cold      \\
     50.29                                        & 11943.91                 & Airfield Hot       \\
     -27.06                                       & -11170.12                & Cruising           \\ \bottomrule
     \end{tabular}
 \end{table}
 
-These values are acceptable for the heat loading of the aircraft’s environmental control system, and if given the chance to do further design work, additional analysis could be performed on what impact these heat loads have on the overall electronic system of the aircraft. 
+With the values of heat loading known, the mass flow rate for both the environmental control system ($\dot m_{ecs}$) and the recirculation system ($\dot m_r$) can be obtained by Equations 3.20 and  3.21, respectively. 
+
+\begin{equation}
+    \dot m_{ecs} = {{Q}\over{C_p(T_c-T_{ecs})}} \, ,
+\end{equation}
+\myequations{The equation to find $\dot m_{ecs}$.}
+\begin{equation}
+    \dot m_{r} = {{T_{in}\dot m_{ecs}-\dot m_{ecs}T_{ecs}}\over{T_c-T_{in}}} \, ,
+\end{equation}
+\myequations{The equation to find $\dot m_{r}$.}
+
+Table 3.6 shows the various mass flow rates, for each of the 3 conditions. 
+
+\begin{table}[]
+    \centering
+    \caption{This table shows the different mass flow rates in different conditions. }
+    \label{tab:ecs_final_mass}
+    \begin{tabular}{@{}ccc@{}}
+    \toprule
+    \textbf{$\dot m_{ecs}$ (kg/s)} & \textbf{$\dot m_r$ (kg/s)} & \textbf{Condition} \\ \midrule
+    0.109                          & 0.025                      & Airfield Cold      \\
+    0.914                          & 0.552                      & Airfield Hot       \\
+    0.236                          & 0.047                      & Cruising           \\ \bottomrule
+    \end{tabular}
+\end{table}
+
+These values are acceptable for the heat loading of the aircraft’s environmental control system, and the values for mass flow rate are acceptable, enough air is being provided to the cabin in all phases of flight, and the percentage of air being recirculated is less than 45\% in all conditions, thus meeting the necessary certifcation requirements apart of EASA Part-25. 
 
 \section{Secondary Tasks}
 The following tasks, aircraft drag prediction and tail and fin design, were assigned to the author in a secondary capacity. This means that it was the author’s duty to confirm and corroborate the primary’s decisions by repeating calculations to ensure that their decisions made sense and met the necessary certification requirements outlined in EASA Part-25.  
