@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.16)  28 MAR 2025 13:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.16)  28 MAR 2025 14:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1262,11 +1262,11 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
- [3])
+)
 \tf@toc=\write8
 \openout8 = `main.toc'.
 
- [4] (main.lof)
+ [3] [4] (main.lof)
 \tf@lof=\write9
 \openout9 = `main.lof'.
 
@@ -1279,155 +1279,155 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \openout11 = `main.equ'.
 
  [7]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 77.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 76.
  (C:\Users\Philip\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<pictures/market_survey_initial.jpg, id=264, 1452.17531pt x 740.7675pt>
+<pictures/market_survey_initial.jpg, id=259, 1452.17531pt x 740.7675pt>
 File: pictures/market_survey_initial.jpg Graphic file (type jpg)
 <use pictures/market_survey_initial.jpg>
-Package pdftex.def Info: pictures/market_survey_initial.jpg  used on input line 86.
+Package pdftex.def Info: pictures/market_survey_initial.jpg  used on input line 85.
 (pdftex.def)             Requested size: 498.26744pt x 254.16347pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 86--87
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 85--86
  [][] 
  []
 
 [8 <./pictures/market_survey_initial.jpg>]
-<pictures/market_survey_detailed_1.jpg, id=270, 1665.97406pt x 172.39406pt>
+<pictures/market_survey_detailed_1.jpg, id=266, 1665.97406pt x 172.39406pt>
 File: pictures/market_survey_detailed_1.jpg Graphic file (type jpg)
 <use pictures/market_survey_detailed_1.jpg>
-Package pdftex.def Info: pictures/market_survey_detailed_1.jpg  used on input line 101.
+Package pdftex.def Info: pictures/market_survey_detailed_1.jpg  used on input line 100.
 (pdftex.def)             Requested size: 498.26744pt x 51.55815pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 101--102
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 100--101
  [][] 
  []
 
-<pictures/market_survey_detailed_2.jpg, id=271, 1531.22063pt x 175.40532pt>
+<pictures/market_survey_detailed_2.jpg, id=267, 1531.22063pt x 175.40532pt>
 File: pictures/market_survey_detailed_2.jpg Graphic file (type jpg)
 <use pictures/market_survey_detailed_2.jpg>
-Package pdftex.def Info: pictures/market_survey_detailed_2.jpg  used on input line 107.
+Package pdftex.def Info: pictures/market_survey_detailed_2.jpg  used on input line 106.
 (pdftex.def)             Requested size: 498.26744pt x 57.07831pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 107--108
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 106--107
  [][] 
  []
 
-<pictures/market_survey_detailed_3.jpg, id=272, 1527.45656pt x 201.75375pt>
+<pictures/market_survey_detailed_3.jpg, id=268, 1527.45656pt x 201.75375pt>
 File: pictures/market_survey_detailed_3.jpg Graphic file (type jpg)
 <use pictures/market_survey_detailed_3.jpg>
-Package pdftex.def Info: pictures/market_survey_detailed_3.jpg  used on input line 113.
+Package pdftex.def Info: pictures/market_survey_detailed_3.jpg  used on input line 112.
 (pdftex.def)             Requested size: 498.26744pt x 65.81238pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 113--114
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 112--113
  [][] 
  []
 
-<pictures/market_survey_detailed_4.jpg, id=273, 1457.445pt x 161.85469pt>
+<pictures/market_survey_detailed_4.jpg, id=269, 1457.445pt x 161.85469pt>
 File: pictures/market_survey_detailed_4.jpg Graphic file (type jpg)
 <use pictures/market_survey_detailed_4.jpg>
-Package pdftex.def Info: pictures/market_survey_detailed_4.jpg  used on input line 119.
+Package pdftex.def Info: pictures/market_survey_detailed_4.jpg  used on input line 118.
 (pdftex.def)             Requested size: 498.26744pt x 55.33363pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 119--120
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 118--119
  [][] 
  []
 
 [9 <./pictures/market_survey_detailed_1.jpg> <./pictures/market_survey_detailed_2.jpg> <./pictures/market_survey_detailed_3.jpg>]
-<pictures/planview.jpg, id=280, 1269.24188pt x 828.09375pt>
+<pictures/planview.jpg, id=275, 1269.24188pt x 828.09375pt>
 File: pictures/planview.jpg Graphic file (type jpg)
 <use pictures/planview.jpg>
-Package pdftex.def Info: pictures/planview.jpg  used on input line 135.
+Package pdftex.def Info: pictures/planview.jpg  used on input line 133.
 (pdftex.def)             Requested size: 498.26744pt x 325.07806pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 135--136
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 133--134
  [][] 
  []
 
 [10 <./pictures/market_survey_detailed_4.jpg>] [11 <./pictures/planview.jpg>]
-<pictures/power-to-weight.jpg, id=290, 1066.7353pt x 727.21687pt>
+<pictures/power-to-weight.jpg, id=285, 1066.7353pt x 727.21687pt>
 File: pictures/power-to-weight.jpg Graphic file (type jpg)
 <use pictures/power-to-weight.jpg>
-Package pdftex.def Info: pictures/power-to-weight.jpg  used on input line 150.
+Package pdftex.def Info: pictures/power-to-weight.jpg  used on input line 148.
 (pdftex.def)             Requested size: 498.26744pt x 339.68365pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 150--151
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 148--149
  [][] 
  []
 
 [12 <./pictures/power-to-weight.jpg>] [13]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htb') on input line 185.
+               Default added (so using `htb') on input line 183.
 
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 203.
+(amsmath)                 on input line 201.
 
 [14]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htb') on input line 213.
+               Default added (so using `htb') on input line 211.
 
 [15] [16] [17] [18] [19]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htb') on input line 476.
+               Default added (so using `htb') on input line 474.
 
 [20]
-<pictures/ECS_hot_iteration.jpg, id=344, 1641.13126pt x 237.13594pt>
+<pictures/ECS_hot_iteration.jpg, id=339, 1641.13126pt x 237.13594pt>
 File: pictures/ECS_hot_iteration.jpg Graphic file (type jpg)
 <use pictures/ECS_hot_iteration.jpg>
-Package pdftex.def Info: pictures/ECS_hot_iteration.jpg  used on input line 504.
+Package pdftex.def Info: pictures/ECS_hot_iteration.jpg  used on input line 502.
 (pdftex.def)             Requested size: 498.26744pt x 71.99525pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 504--505
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 502--503
  [][] 
  []
 
-<pictures/ECS_cold_iteration.jpg, id=345, 1623.06375pt x 231.86626pt>
+<pictures/ECS_cold_iteration.jpg, id=340, 1623.06375pt x 231.86626pt>
 File: pictures/ECS_cold_iteration.jpg Graphic file (type jpg)
 <use pictures/ECS_cold_iteration.jpg>
-Package pdftex.def Info: pictures/ECS_cold_iteration.jpg  used on input line 511.
+Package pdftex.def Info: pictures/ECS_cold_iteration.jpg  used on input line 509.
 (pdftex.def)             Requested size: 498.26744pt x 71.1808pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 511--512
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 509--510
  [][] 
  []
 
 [21 <./pictures/ECS_hot_iteration.jpg> <./pictures/ECS_cold_iteration.jpg>] [22] [23] [24] [25] [26] [27]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `htb') on input line 699.
+               Default added (so using `htb') on input line 697.
 
 [28]
-<pictures/tailplane_analysis.jpg, id=385, 1218.80344pt x 791.95876pt>
+<pictures/tailplane_analysis.jpg, id=380, 1218.80344pt x 791.95876pt>
 File: pictures/tailplane_analysis.jpg Graphic file (type jpg)
 <use pictures/tailplane_analysis.jpg>
-Package pdftex.def Info: pictures/tailplane_analysis.jpg  used on input line 738.
+Package pdftex.def Info: pictures/tailplane_analysis.jpg  used on input line 736.
 (pdftex.def)             Requested size: 498.26744pt x 323.76262pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 738--739
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 736--737
  [][] 
  []
 
 [29] [30 <./pictures/tailplane_analysis.jpg>] [31]
-<pictures/BFL_CL.jpg, id=402, 1117.17375pt x 761.84625pt>
+<pictures/BFL_CL.jpg, id=397, 1117.17375pt x 761.84625pt>
 File: pictures/BFL_CL.jpg Graphic file (type jpg)
 <use pictures/BFL_CL.jpg>
-Package pdftex.def Info: pictures/BFL_CL.jpg  used on input line 793.
+Package pdftex.def Info: pictures/BFL_CL.jpg  used on input line 791.
 (pdftex.def)             Requested size: 498.26744pt x 339.78194pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 793--794
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 791--792
  [][] 
  []
 
 [32] [33 <./pictures/BFL_CL.jpg>]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 809.
+(hyperref)                be the same. Added a new anchor on input line 807.
 
 [34] AED endfloat: Processing end Figures and Tables [35
 
@@ -1437,23 +1437,23 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 88448B8F944B8C41CFB07C339152D7FB;3541.
+(rerunfilecheck)             Checksum: 2A8BF23337FBD955D6373F431DDD5DF8;3269.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46201 strings out of 474486
- 1030768 string characters out of 5743282
- 2009957 words of memory out of 5000000
- 67623 multiletter control sequences out of 15000+600000
+ 46199 strings out of 474486
+ 1030748 string characters out of 5743282
+ 2011114 words of memory out of 5000000
+ 67622 multiletter control sequences out of 15000+600000
  610090 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,21n,107p,917b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,21n,107p,1269b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (35 pages, 2511911 bytes).
+Output written on main.pdf (35 pages, 2511851 bytes).
 PDF statistics:
- 496 PDF objects out of 1000 (max. 8388607)
- 135 named destinations out of 1000 (max. 500000)
- 260 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 491 PDF objects out of 1000 (max. 8388607)
+ 134 named destinations out of 1000 (max. 500000)
+ 252 words of extra memory for PDF output out of 10000 (max. 10000000)
 
