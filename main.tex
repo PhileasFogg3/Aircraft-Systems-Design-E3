@@ -606,7 +606,7 @@ Table 3.6 shows the various mass flow rates, for each of the 3 conditions.
 These values are acceptable for the heat loading of the aircraft’s environmental control system, and the values for mass flow rate are acceptable, enough air is being provided to the cabin in all phases of flight, and the percentage of air being recirculated is less than 45\% in all conditions, thus meeting the necessary certifcation requirements apart of EASA Part-25. 
 
 \section{Secondary Tasks}
-The following tasks, aircraft drag prediction and tail and fin design, were assigned to the author in a secondary capacity. This means that it was the author’s duty to confirm and corroborate the primary’s decisions by repeating calculations to ensure that their decisions made sense and met the necessary certification requirements outlined in EASA Part-25.  
+The following tasks, aircraft drag prediction, tail and fin design and airfield performance, were assigned to the author in a secondary capacity. This means that it was the author’s duty to confirm and corroborate the primary’s decisions by repeating calculations to ensure that their decisions made sense and met the necessary certification requirements outlined in EASA Part-25.  
 \subsection{Aircraft Drag Prediction}
 When mathematically predicting the drag of the aircraft, the drag area methods are employed to find the drag induced by:
 \begin{enumerate}
@@ -696,10 +696,6 @@ Once these equations have been applied to the values previously discussed in Tab
 
 Now that all the equations have been defined, the coefficient of drag can be calculated in many different conditions, the results of which are shown in Table 4.3. 
 
-% Please add the following required packages to your document preamble:
-% \usepackage{booktabs}
-% \usepackage[table,xcdraw]{xcolor}
-% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
 \begin{table}[]
     \centering
     \caption{The table shows the different drag coefficients at five different phases of flight.}
@@ -716,7 +712,60 @@ Now that all the equations have been defined, the coefficient of drag can be cal
 \end{table}
 
 These values are sufficiently close to those calculated by the primary designer for the aircraft drag prediction. This process cannot comment on the choices made by the primary designer as this element of the design process is purely analytical, which attempts to identify if the aircraft performs with an acceptable drag component. However, this process can reasonably say that the primary designer performed the calculations correctly and to a high degree of accuracy as the values obtained by the independent methods are within a reasonable degree of accuracy of one another.   
-\subsection{Tail and Fin Design}
+\subsection{Tailplane and Fin Design}
+\subsubsection{Tailplane Design}
+Before the sizing of the fin can be completed, the tailplane first must be sized and appropriately positioned on the fuselage to give a balanced aircraft. The following parameters were chosen for the tailplane, they can be seen in Table 4.4. 
+
+\begin{table}[H]
+    \centering
+    \caption{This table shows the design characteristics of the aircraft's tailplane. }
+    \label{tab:tailplane_table}
+    \begin{tabular}{@{}cc@{}}
+    \toprule
+    \textbf{Parameter}         & \textbf{Value} \\ \midrule
+    Aspect Ratio               & 5              \\
+    Tail Moment Arm (m)        & 10.9           \\
+    Tailplane Sweep ($\degree$) & 5              \\ \bottomrule
+    \end{tabular}
+\end{table}
+
+A numerical analysis is done on this data and the aircraft’s general design information to create Figure 4.1. This graph shows how stable the aircraft is with the addition of the tailplane, taking into account the centre of gravity’s position range. This graph not only shows that the CG positions fall within the forward and aft locus for the tailplane to be balanced. Additionally, the aircraft will be easily controllable in severe phases of flight, such as stalls or harsh manoeuvres, since their plots also lie within the CG lower and maximum boundaries. 
+
+\begin{figure}[H]
+    \caption{The graphical tailplane analysis conducted to ensure it balances the aircraft correctly.}
+    \label{fig:tailplane}
+    \centering
+    \includegraphics[width=1.1\textwidth]{pictures/tailplane_analysis.jpg}
+\end{figure}
+
+The graphical analysis of the tailplane design confirms that the primary designer chose good design parameters (as seen in Table 4.4) for the tailplane. Furthermore, the graphical analysis performed by the primary and secondary designers yielded very similar results, and therefore, there is a high level of confidence that the completed analysis shows a true reflection of the tailplane’s impact on the aircraft’s balance.
+
+\subsubsection{Fin Design}
+
+Now that the tailplane has been sized and appropriately placed on the fuselage, the vertical fin can be designed. The primary designer selected the parameters seen in Table 4.5. 
+
+\begin{table}[H]
+    \centering
+    \caption{This table shows the design characteristics of the aircraft's fin. }
+    \label{tab:fin_table}
+    \begin{tabular}{@{}cc@{}}
+    \toprule
+    \textbf{Parameter}       & \textbf{Value} \\ \midrule
+    Aspect Ratio (Fin)       & 2.5            \\
+    Aspect Ratio (Rudder)    & 2.5            \\
+    Rudder Sweep ($\degree$) & 40             \\ \bottomrule
+    \end{tabular}
+\end{table}
+    
+From these parameters and other aircraft data, the fin volume coefficient ($V_{bf}$) can be obtained by Equation 4.9. 
+
+\begin{equation}
+    V_{bf} = k_e \left\{ \left[ \frac{\left(\frac{P}{W}\right)}{n_e} \right] \left( \frac{y_e}{b} \right) C_{L_{\max}} \right\} \frac{S_f}{S_{fr}} \Bigg/ \left\{ \left( 1 - \frac{W_p}{W} \right) \left( \frac{S_r}{S_{fr}} AR_{fr} \cos\Lambda_r \right)^{\frac{1}{3}} \right\} /, ,
+\end{equation}
+\myequations{The equation for Fin Volume Coefficient.}
+Application of this equation results in a value of $V_bf$ of 0.32097. This is slightly higher than most conventional fins, most fins have a value between 0.05 and 0.25. However, this is to be expected as a slightly larger fin was chosen so that the fin contributes as much lift as possible while minimising the drag produced by the turboprobs mounted on the wing.   
+
+The analysis produced by both secondary and primary yeilded similar results and therefore it can be said with, a high degree of confidence, that the impact of the fin's sizing has been fully understood and accounted for by the design team.
 \subsection{Airfield Performance}
 Similarly to Chapter 4.1, when assessing airfield performance in the role of a secondary, the goal is to not comment on design choices made as no unique decisions are made at this phase of design. Instead, the performance of the aircraft is estimated based on its design values by a numerical analysis. The goal of said analysis is to obtain values for:
 \begin{enumerate}
@@ -725,7 +774,7 @@ Similarly to Chapter 4.1, when assessing airfield performance in the role of a s
     \item Aircraft climb out angle, in degrees, for an all engine case and an engine failure case.
 \end{enumerate}
 
-Furthermore, it is important that these parameters comply with EASA Part-25 regulations for airfield performance. In particular, EASA states that in an engine failure situation, the minimum climb out angle for a large aeroplane is 1.38 $\degree$. This design phase is the final checkpoint for the aircraft designed for this project and will ultimately inform the design team if the design objectives have been met. After some mathematical analysis, the takeoff speed for the aircraft is found to be 44m/s and is found by Equation 4.X. 
+Furthermore, it is important that these parameters comply with EASA Part-25 regulations for airfield performance. In particular, EASA states that in an engine failure situation, the minimum climb out angle for a large aeroplane is 1.38 $\degree$. This design phase is the final checkpoint for the aircraft designed for this project and will ultimately inform the design team if the design objectives have been met. After some mathematical analysis, the takeoff speed for the aircraft is found to be 44m/s and is found by Equation 4.10. 
 \begin{equation}
     V_{TO} = \sqrt{{{2W/S}\over{\rho (C_L)_{max}}}} \, ,
 \end{equation}
@@ -736,15 +785,16 @@ mportantly, the climb-out angle for the aircraft was also calculated, both for a
 
 Finally, the landing distance, with included factor of safety, was found to be 1005m. Again, this value is sufficiently close to the one calculated by the primary designer.
 
-There is a high level of confidence in the calculated airfield performance of the aircraft as the primary and secondary designers have made similar conclusions based on the values obtained. While the climb-out angles are very good in both conditions, the landing and takeoff distance values are slightly higher than ideal, considering the aircraft’s goal was to operate to and from damaged or makeshift airfields in hazardous areas. If given the ability to complete further study, the secondary designer’s recommendation would be to tweak certain aircraft parameters, such as increasing the coefficient of lift due to flaps extended at takeoff and landing. This is because Figure 4.X shows an inverse exponential relationship between $C_L$ and Balanced Field Length; as $C_L$ increases, the Balanced Field length decreases.
+There is a high level of confidence in the calculated airfield performance of the aircraft as the primary and secondary designers have made similar conclusions based on the values obtained. While the climb-out angles are very good in both conditions, the landing and takeoff distance values are slightly higher than ideal, considering the aircraft’s goal was to operate to and from damaged or makeshift airfields in hazardous areas. If given the ability to complete further study, the secondary designer’s recommendation would be to tweak certain aircraft parameters, such as increasing the coefficient of lift due to flaps extended at takeoff and landing. This is because Figure 4.2 shows an inverse exponential relationship between $C_L$ and Balanced Field Length; as $C_L$ increases, the Balanced Field length decreases.
 \begin{figure}[H]
     \caption{The relationship between balanced field length and $C_L$.}
     \label{fig:BFL}
     \centering
     \includegraphics[width=1.1\textwidth]{pictures/BFL_CL.jpg}
 \end{figure}
-\section{Design Review}
+
 \section{Group Work Evaluation}
+Overall, the design team has worked exceptionally well together throughout the course of this project. Each member of the team had clear assignments and objectives and was supported in the completion of these objectives by the rest of the team. As a whole, the group worked together to achieve most design objectives, with each aspect of design having a primary, which gave the added bonus of leadership experience to all group members throughout the project. In addition, the group members regularly communicated with one another and secured their files via Microsoft Teams. In addition to Teams, all documents were version controlled, which meant that all team members could see who made modifications, and where, and if necessary, revert to a previous version of the document with the click of a button.  
 \section{Conclusions}
 
 \section{Appendix}
