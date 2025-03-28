@@ -72,7 +72,88 @@
 \section{Introduction}
 \section{Overview of Group Design and Market Survey}
 \subsection{Market Survey}
+Before the aircraft concept was developed, a thorough market survey was conducted, investigating aircraft that meet the size requirements for this design exercise, which are:
+\begin{itemize}
+    \item The aircraft must fall into EASA Part-25 (for large aeroplanes, more significant than 5700kg,
+    \item The aircraft must seat no more than 24 passengers.     
+\end{itemize}
+Considering these two characteristics, twenty-three aircraft, a combination of turboprop-powered and jet-powered aircraft, were surveyed in an initial, brief investigation. This initial investigation can be seen in Figure 2.1 (\cite{janes2023}). 
+
+\begin{figure}[H]
+    \caption{The initial market survey completed for this design project}
+    \label{fig:market_survey_initial}
+    \centering
+    \includegraphics[width=1.1\textwidth]{pictures/market_survey_initial.jpg}
+\end{figure}
+
+As seen in Figure 2.1, the scope of the initial investigation was small, but its purpose was twofold:
+\begin{enumerate}
+    \item To investigate if there is a relationship between aircraft weight and the selected engine type,
+    \item To investigate the relationship between aircraft’s airfield performance and weight.
+\end{enumerate}
+
+This investigation was successful. From the completed market survey, the design team was able to ascertain that, generally speaking, the lighter aircraft are powered by turboprops rather than jet engines, although exceptions do exist, such as the A400. Additionally, heavier aircraft tended to have worse airfield performance than their lighter counterparts; in this case, worse performance means longer takeoff and landing distances. At this point, the scope of the market survey became narrower but more in-depth, deciding to focus only on ten aircraft, which more closely aligned with a design objective in mind: to transport aid and supplies into disaster zones. Figures 2.2 to 2.5 show the second market survey conducted. 
+
+\begin{figure}[H]
+    \caption{The second market survey for the design project - showing general data}
+    \label{fig:market_survey_detailed_1}
+    \centering
+    \includegraphics[width=1.1\textwidth]{pictures/market_survey_detailed_1.jpg}
+\end{figure}
+\begin{figure}[H]
+    \caption{The second market survey for the design project - showing engine data}
+    \label{fig:market_survey_detailed_2}
+    \centering
+    \includegraphics[width=1.1\textwidth]{pictures/market_survey_detailed_2.jpg}
+\end{figure}
+\begin{figure}[H]
+    \caption{The second market survey for the design project - showing dimensions}
+    \label{fig:market_survey_detailed_3}
+    \centering
+    \includegraphics[width=1.1\textwidth]{pictures/market_survey_detailed_3.jpg}
+\end{figure}
+\begin{figure}[H]
+    \caption{The second market survey for the design project - showing weights information}
+    \label{fig:market_survey_detailed_4}
+    \centering
+    \includegraphics[width=1.1\textwidth]{pictures/market_survey_detailed_4.jpg}
+\end{figure}
+
+Figures 2.2 and 2.5 not only confirm the assertions made by the initial market survey but also expand upon them by providing more detailed information. This additional information helps the design team to spot gaps in the existing market; for example, there is no aircraft listed that operates at a short range (less than one thousand kilometers). Furthermore, aircraft such as the ATR-42, which has a very large payload weight (44kN), also has both a very long takeoff distance and landing distance.
+
+This, therefore, became a primary design objective for the group’s aircraft. The goal was to create an aircraft that could transport heavy loads over short distances while also landing and taking off from short, perhaps unconventional airfields.  
+
+
 \subsection{Design Overview}
+
+The purpose of the aircraft designed in this project is to deliver aid and specialist crew to disaster zones following a natural incident or warfare. The aircraft achieves this by having a short range (one thousand kilometers) but a high payload weight (twenty-four kilo newtons). In addition, the aircraft is capable of taking off from short fields (three hundred and thirty meters long) and landing on fields just over one thousand meters long.  Figure 2.6 shows the plan view of the aircraft.
+
+\begin{figure}[H]
+    \caption{The planview of the aircraft designed.}
+    \label{fig:aircraft_planview}
+    \centering
+    \includegraphics[width=1.1\textwidth]{pictures/planview.jpg}
+\end{figure}
+
+The aircraft has a high wing (aspect ratio 9) with engines mounted upon it. In addition, the wing is fitted with both flaps and slats to produce a maximum $C_L$ of 2.3 when taking off, ensuring the aircraft can get off the ground quickly. 
+
+While the aircraft is primarily designed to transport cargo on pallets, the internals of the fuselage are very customisable. If need be, pallet-carrying capabilities can be replaced for people transportation in the event that evacuations are needed following a disaster. When transporting passengers, the aircraft is completely capable of providing a suitable environment onboard, with air mass flow rates exceeding the minimum required by EASA Part-25 in all categories. 
+
+In terms of certification, the aircraft is entirely compliant with EASA Part-25 in all aspects; the aircraft is completely balanced in all loading configurations, and it meets all the necessary requirements when operating with only one engine. For example, it is able to climb out of an airfield at 1.53 $\degree$, when the minimum acceptable climb-out angle is 1.38 $\degree$. 
+
+Finally, the aircraft’s power-to-weight ratio and wing loading is very finely tuned as seen in Figure 2.7.
+
+\begin{figure}[H]
+    \caption{The power to weight ratio vs wing laoding of the aircraft.}
+    \label{fig:power_to_weight}
+    \centering
+    \includegraphics[width=1.1\textwidth]{pictures/power-to-weight.jpg}
+\end{figure}
+
+As the lines all intersect at a similar position, the aircraft’s power-to-weight ratio can be confirmed as approximately 17 W/N, with a wing loading of around 2500 $N/m^2$. The fact that the lines all intersect relatively closely provides sufficient evidence that the aircraft will be both aptly powered and stable, with enough lift being generated by the wing.  
+
+Ultimately, the designed aircraft is not only compliant with EASA Part-25, but it is also able to perform its duties as a transport aircraft in very challenging conditions, thanks to its short field operations capabilities and large weight payload.      
+
 \section{Primary Tasks}
 The following three tasks, initial weight estimation, centre of gravity and environmental control systems, were all the author's responsibility for this aircraft. As the member of the team with primary responsibility, it was the author’s duty to make the design decisions and justify them with calculations, ensuring that all parameters make both logical sense but also comply with EASA Part-25, the regulatory body that would eventually go on to certify this aircraft.
 \subsection{Initial Weight Estimation}
@@ -509,7 +590,7 @@ With the values of heat loading known, the mass flow rate for both the environme
 
 Table 3.6 shows the various mass flow rates, for each of the 3 conditions. 
 
-\begin{table}[]
+\begin{table}[H]
     \centering
     \caption{This table shows the different mass flow rates in different conditions. }
     \label{tab:ecs_final_mass}

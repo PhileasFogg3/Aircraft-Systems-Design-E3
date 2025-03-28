@@ -5,19 +5,19 @@
 \contentsline {section}{\numberline {1}Introduction}{7}{section.1}%
 \contentsline {section}{\numberline {2}Overview of Group Design and Market Survey}{7}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Market Survey}{7}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Design Overview}{7}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Primary Tasks}{7}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Initial Weight Estimation}{7}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Centre of Gravity}{10}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Environmental Control Systems}{14}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Airfield Condition}{14}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Inflight Condition}{15}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Calculating Heat Load}{17}{subsubsection.3.3.3}%
-\contentsline {section}{\numberline {4}Secondary Tasks}{19}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Aircraft Drag Prediction}{19}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Tail and Fin Design}{19}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Design Review}{19}{section.5}%
-\contentsline {section}{\numberline {6}Group Work Evaluation}{19}{section.6}%
-\contentsline {section}{\numberline {7}Conclusions}{19}{section.7}%
-\contentsline {section}{\numberline {8}Appendix}{19}{section.8}%
-\contentsline {subsection}{References}{19}{section*.12}%
+\contentsline {subsection}{\numberline {2.2}Design Overview}{9}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Primary Tasks}{11}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Initial Weight Estimation}{12}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Centre of Gravity}{15}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Environmental Control Systems}{19}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Airfield Condition}{19}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Inflight Condition}{20}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Calculating Heat Load}{22}{subsubsection.3.3.3}%
+\contentsline {section}{\numberline {4}Secondary Tasks}{24}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Aircraft Drag Prediction}{24}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Tail and Fin Design}{24}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Design Review}{24}{section.5}%
+\contentsline {section}{\numberline {6}Group Work Evaluation}{24}{section.6}%
+\contentsline {section}{\numberline {7}Conclusions}{24}{section.7}%
+\contentsline {section}{\numberline {8}Appendix}{24}{section.8}%
+\contentsline {subsection}{References}{24}{section*.19}%
