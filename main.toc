@@ -15,9 +15,10 @@
 \contentsline {subsubsection}{\numberline {3.3.3}Calculating Heat Load}{22}{subsubsection.3.3.3}%
 \contentsline {section}{\numberline {4}Secondary Tasks}{24}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Aircraft Drag Prediction}{24}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Tail and Fin Design}{24}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Design Review}{24}{section.5}%
-\contentsline {section}{\numberline {6}Group Work Evaluation}{24}{section.6}%
-\contentsline {section}{\numberline {7}Conclusions}{24}{section.7}%
-\contentsline {section}{\numberline {8}Appendix}{24}{section.8}%
-\contentsline {subsection}{References}{24}{section*.19}%
+\contentsline {subsection}{\numberline {4.2}Tail and Fin Design}{28}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Airfield Performance}{28}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Design Review}{28}{section.5}%
+\contentsline {section}{\numberline {6}Group Work Evaluation}{28}{section.6}%
+\contentsline {section}{\numberline {7}Conclusions}{28}{section.7}%
+\contentsline {section}{\numberline {8}Appendix}{28}{section.8}%
+\contentsline {subsection}{References}{28}{section*.22}%

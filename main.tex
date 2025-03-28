@@ -608,7 +608,116 @@ These values are acceptable for the heat loading of the aircraft’s environment
 \section{Secondary Tasks}
 The following tasks, aircraft drag prediction and tail and fin design, were assigned to the author in a secondary capacity. This means that it was the author’s duty to confirm and corroborate the primary’s decisions by repeating calculations to ensure that their decisions made sense and met the necessary certification requirements outlined in EASA Part-25.  
 \subsection{Aircraft Drag Prediction}
+When mathematically predicting the drag of the aircraft, the drag area methods are employed to find the drag induced by:
+\begin{enumerate}
+    \item The wing,
+    \item The fuselage,
+    \item The nacelles.
+\end{enumerate}
+In order to complete these calculations, a number of parameters are needed; these can be found in Table 4.1. 
+\begin{table}[H]
+    \centering
+    \caption{Table of values used to compute drag prediction at cruising altitude.}
+    \label{tab:drag_cruise_table}
+    \begin{tabular}{@{}lll@{}}
+    \toprule
+    \multicolumn{1}{c}{\textbf{Parameter}} & \multicolumn{1}{c}{\textbf{Mathematical Symbol}} & \multicolumn{1}{c}{\textbf{Value for our Aircraft}} \\ \midrule
+    Airpseed                               & $V$                                              & 140                                                 \\
+    Altitude                               & $h$                                              & 7.62                                                \\
+    Wing Area                              & $S$                                              & 33.836                                              \\
+    Thickness to Chord Ratio               & $t_c$                                              & 0.18                                                \\
+    Quarter Chord Sweep                    & $\Lambda_{{{1}\over{4}}}$                         & 5                                                   \\
+    Fuselage Length                        & $l_f$                                            & 16.62                                               \\
+    Fuselage Breadth                       & $b_f$                                            & 2.2                                                 \\
+    Fuselage Depth                         & $d_f$                                            & 2.2                                                 \\
+    Number of Engines                      & $n_e$                                            & 2                                                   \\
+    Engine Power                           & $P$                                              & 1945                                                \\
+    Engine $k_i$                           & $k_i$                                            & 1                                                   \\
+    Maximum Takeoff Weight                 & $W_{TO}$                                         & 8.6                                                 \\
+    Empennage Factor                       & $C_e$                                            & 1.24                                                \\
+    Undercarraige Factor                   & $C_{UC}$                                         & 1.08                                                \\
+    Compressibility Increment              & $c$                                              & 0.0005                                              \\
+    Drag induced by flaps at takeoff       & $\Delta C_{Dof}$                                 & 0.03156                                             \\
+    Drag induced by flaps at landing       & $\Delta C_{Dla}$                                 & 0.033708                                            \\ \bottomrule
+    \end{tabular}
+\end{table}
+
+It is important to remember the fact that these values would calculate drag at cruising speed only. By modifying the values for airspeed and altitude, drag could be predicted in different phases of flight. This will be completed, and the different values used for airspeed and altitude will be shown in Table 4.2.
+
+\begin{table}[H]
+    \centering
+    \caption{The different values of airspeed and altitude used to compute drag in different phases of flight.}
+    \label{tab:drag_pred_phase_table}
+    \begin{tabular}{@{}c c c @{}}
+    \toprule
+    \textbf{Condition} & \textbf{Altitude (km)} & \textbf{Airspeed (m/s)} \\ \midrule
+    \textbf{2000ft}    & 0.6096                 & 82                      \\
+    \textbf{Gear Down} & 0.6096                 & 77                      \\
+    \textbf{Landing}   & 0.3048                 & 72                      \\
+    \textbf{Takeoff}   & 0.3048                 & 72                      \\ \bottomrule
+    \end{tabular}
+\end{table}
+
+Equations 4.1 (wing drag area), 4.2 (fuselage drag area), 4.3 (nacelle drag area)  show how the different drag areas can be calculated based on the parameters detailed in Table 4.1, whereas Equation 4.4 shows how to find the overall drag area of the aircraft.
+
+\begin{equation}
+    (C_DS)_w = 0.0054(1+3t_c\times cos^2(\Lambda_{{1}\over{4}})) \, ,
+\end{equation}
+\myequations{The equation to find the wing drag area.}
+\begin{equation}
+    (C_DS)_f = 0.0031l_f(b_f+d_f) \, ,
+\end{equation}
+\myequations{The equation to find the fuselage drag area.}
+\begin{equation}
+    (C_DS)_p = 0.1k_i{{P}\over{717.2P^{0.168}}}n_e \, ,
+\end{equation}
+\myequations{The equation to find the nacelle drag area.}
+\begin{equation}
+    C_DS = (47Re^{-0.2})C_{UC}(C_e((C_DS)_w+(C_DS)_f)+(C_DS)_p) \, ,
+\end{equation}
+\myequations{The equation to find the overall drag area.}
+Once these equations have been applied to the values previously discussed in Tables 4.1 and 4.2, values for the coefficients of drag can be calculated, the Equation for clean drag ($C_{DO}$) can be seen in Equation 4.5, the equation for drag due to undercarriage deployment ($(C_{DO})_{uc}$) can be seein in Equation 4.6 and finally drag due to flap extension at takeoff ($(C_{DO})_{to}$) and landing ($(C_{DO})_{la}$) can be seen in Equations 4.7 and 4.8 respectively. 
+\begin{equation}
+    C_{DO}= {{C_DS}\over{S}} + c \, ,
+\end{equation}
+\myequations{The equation to find the clean drag coefficient.}
+\begin{equation}
+    (C_{DO})_{uc}= (0.095+1*0.063) \left( {{W_{TO}^{0.785}}\over{S}} \right) \, ,
+\end{equation}
+\myequations{The equation to find the drag coefficient incuded by undercarriage deployment.}
+\begin{equation}
+    (C_{DO})_{to}= C_{DO}+(C_{DO})_{uc}+ \Delta C_{Dof}\, ,
+\end{equation}
+\myequations{The equation to find the drag coefficient incuded by flaps during takeoff.}
+\begin{equation}
+    (C_{DO})_{la}= C_{DO}+(C_{DO})_{uc}+ \Delta C_{Dla}\, ,
+\end{equation}
+\myequations{The equation to find the drag coefficient incuded by flaps during landing.}
+
+Now that all the equations have been defined, the coefficient of drag can be calculated in many different conditions, the results of which are shown in Table 4.3. 
+
+% Please add the following required packages to your document preamble:
+% \usepackage{booktabs}
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\begin{table}[]
+    \centering
+    \caption{The table shows the different drag coefficients at five different phases of flight.}
+    \label{tab:drag_values}
+    \begin{tabular}{@{}cccccc@{}}
+    \toprule 
+    \textbf{Condition}        & \textbf{Altitude (km)} & \textbf{Airspeed} & \textbf{Gear} & \textbf{Flaps} & \textbf{Drag} \\ \midrule
+    \textbf{Cruise (25000ft)} & 7.62                   & 140               & No            & No             & 0.03109       \\ 
+    \textbf{2000ft}           & 0.6096                 & 82                & No            & No             & 0.030617      \\
+    \textbf{Gear Down}        & 0.6096                 & 77                & Yes           & 15             & 0.089991      \\
+    \textbf{Landing}          & 0.3048                 & 72                & Yes           & 45             & 0.090253      \\ 
+    \textbf{Takeoff}          & 0.3048                 & 72                & Yes           & 30             & 0.088105      \\ \bottomrule
+    \end{tabular}
+\end{table}
+
+These values are sufficiently close to those calculated by the primary designer for the aircraft drag prediction. This process cannot comment on the choices made by the primary designer as this element of the design process is purely analytical, which attempts to identify if the aircraft performs with an acceptable drag component. However, this process can reasonably say that the primary designer performed the calculations correctly and to a high degree of accuracy as the values obtained by the independent methods are within a reasonable degree of accuracy of one another.   
 \subsection{Tail and Fin Design}
+\subsection{Airfield Performance}
 \section{Design Review}
 \section{Group Work Evaluation}
 \section{Conclusions}

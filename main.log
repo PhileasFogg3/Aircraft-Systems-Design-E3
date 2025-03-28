@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.16)  28 MAR 2025 03:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.16)  28 MAR 2025 10:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1262,11 +1262,11 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
-)
+ [3])
 \tf@toc=\write8
 \openout8 = `main.toc'.
 
- [3] [4] (main.lof)
+ [4] (main.lof)
 \tf@lof=\write9
 \openout9 = `main.lof'.
 
@@ -1283,7 +1283,7 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 77
  (C:\Users\Philip\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<pictures/market_survey_initial.jpg, id=213, 1452.17531pt x 740.7675pt>
+<pictures/market_survey_initial.jpg, id=241, 1452.17531pt x 740.7675pt>
 File: pictures/market_survey_initial.jpg Graphic file (type jpg)
 <use pictures/market_survey_initial.jpg>
 Package pdftex.def Info: pictures/market_survey_initial.jpg  used on input line 86.
@@ -1294,7 +1294,7 @@ Overfull \hbox (45.29955pt too wide) in paragraph at lines 86--87
  []
 
 [7 <./pictures/market_survey_initial.jpg>]
-<pictures/market_survey_detailed_1.jpg, id=220, 1665.97406pt x 172.39406pt>
+<pictures/market_survey_detailed_1.jpg, id=248, 1665.97406pt x 172.39406pt>
 File: pictures/market_survey_detailed_1.jpg Graphic file (type jpg)
 <use pictures/market_survey_detailed_1.jpg>
 Package pdftex.def Info: pictures/market_survey_detailed_1.jpg  used on input line 101.
@@ -1304,7 +1304,7 @@ Overfull \hbox (45.29955pt too wide) in paragraph at lines 101--102
  [][] 
  []
 
-<pictures/market_survey_detailed_2.jpg, id=221, 1531.22063pt x 175.40532pt>
+<pictures/market_survey_detailed_2.jpg, id=249, 1531.22063pt x 175.40532pt>
 File: pictures/market_survey_detailed_2.jpg Graphic file (type jpg)
 <use pictures/market_survey_detailed_2.jpg>
 Package pdftex.def Info: pictures/market_survey_detailed_2.jpg  used on input line 107.
@@ -1314,7 +1314,7 @@ Overfull \hbox (45.29955pt too wide) in paragraph at lines 107--108
  [][] 
  []
 
-<pictures/market_survey_detailed_3.jpg, id=222, 1527.45656pt x 201.75375pt>
+<pictures/market_survey_detailed_3.jpg, id=250, 1527.45656pt x 201.75375pt>
 File: pictures/market_survey_detailed_3.jpg Graphic file (type jpg)
 <use pictures/market_survey_detailed_3.jpg>
 Package pdftex.def Info: pictures/market_survey_detailed_3.jpg  used on input line 113.
@@ -1324,7 +1324,7 @@ Overfull \hbox (45.29955pt too wide) in paragraph at lines 113--114
  [][] 
  []
 
-<pictures/market_survey_detailed_4.jpg, id=223, 1457.445pt x 161.85469pt>
+<pictures/market_survey_detailed_4.jpg, id=251, 1457.445pt x 161.85469pt>
 File: pictures/market_survey_detailed_4.jpg Graphic file (type jpg)
 <use pictures/market_survey_detailed_4.jpg>
 Package pdftex.def Info: pictures/market_survey_detailed_4.jpg  used on input line 119.
@@ -1335,7 +1335,7 @@ Overfull \hbox (45.29955pt too wide) in paragraph at lines 119--120
  []
 
 [8 <./pictures/market_survey_detailed_1.jpg> <./pictures/market_survey_detailed_2.jpg> <./pictures/market_survey_detailed_3.jpg>]
-<pictures/planview.jpg, id=230, 1269.24188pt x 828.09375pt>
+<pictures/planview.jpg, id=258, 1269.24188pt x 828.09375pt>
 File: pictures/planview.jpg Graphic file (type jpg)
 <use pictures/planview.jpg>
 Package pdftex.def Info: pictures/planview.jpg  used on input line 135.
@@ -1346,7 +1346,7 @@ Overfull \hbox (45.29955pt too wide) in paragraph at lines 135--136
  []
 
 [9 <./pictures/market_survey_detailed_4.jpg>] [10 <./pictures/planview.jpg>]
-<pictures/power-to-weight.jpg, id=240, 1066.7353pt x 727.21687pt>
+<pictures/power-to-weight.jpg, id=268, 1066.7353pt x 727.21687pt>
 File: pictures/power-to-weight.jpg Graphic file (type jpg)
 <use pictures/power-to-weight.jpg>
 Package pdftex.def Info: pictures/power-to-weight.jpg  used on input line 150.
@@ -1377,7 +1377,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `htb') on input line 476.
 
 [19]
-<pictures/ECS_hot_iteration.jpg, id=294, 1641.13126pt x 237.13594pt>
+<pictures/ECS_hot_iteration.jpg, id=322, 1641.13126pt x 237.13594pt>
 File: pictures/ECS_hot_iteration.jpg Graphic file (type jpg)
 <use pictures/ECS_hot_iteration.jpg>
 Package pdftex.def Info: pictures/ECS_hot_iteration.jpg  used on input line 504.
@@ -1387,7 +1387,7 @@ Overfull \hbox (45.29955pt too wide) in paragraph at lines 504--505
  [][] 
  []
 
-<pictures/ECS_cold_iteration.jpg, id=295, 1623.06375pt x 231.86626pt>
+<pictures/ECS_cold_iteration.jpg, id=323, 1623.06375pt x 231.86626pt>
 File: pictures/ECS_cold_iteration.jpg Graphic file (type jpg)
 <use pictures/ECS_cold_iteration.jpg>
 Package pdftex.def Info: pictures/ECS_cold_iteration.jpg  used on input line 511.
@@ -1397,12 +1397,17 @@ Overfull \hbox (45.29955pt too wide) in paragraph at lines 511--512
  [][] 
  []
 
-[20 <./pictures/ECS_hot_iteration.jpg> <./pictures/ECS_cold_iteration.jpg>] [21] [22] [23]
+[20 <./pictures/ECS_hot_iteration.jpg> <./pictures/ECS_cold_iteration.jpg>] [21] [22] [23] [24] [25] [26]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htb') on input line 703.
+
+[27]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 618.
+(hyperref)                be the same. Added a new anchor on input line 727.
 
-[24] AED endfloat: Processing end Figures and Tables [25
+[28] AED endfloat: Processing end Figures and Tables [29
 
 ] (main.aux)
  ***********
@@ -1410,23 +1415,23 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FD05BD697D4DF31F851C61CFE0C85A1C;3195.
+(rerunfilecheck)             Checksum: 9EAC8F9AE783FC6CE97D7FA6975DB7C4;3356.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46140 strings out of 474486
- 1029737 string characters out of 5743282
- 2009194 words of memory out of 5000000
- 67600 multiletter control sequences out of 15000+600000
+ 46163 strings out of 474486
+ 1030027 string characters out of 5743282
+ 2009540 words of memory out of 5000000
+ 67604 multiletter control sequences out of 15000+600000
  610090 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,21n,107p,900b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (25 pages, 1881248 bytes).
+Output written on main.pdf (29 pages, 1895804 bytes).
 PDF statistics:
- 391 PDF objects out of 1000 (max. 8388607)
- 97 named destinations out of 1000 (max. 500000)
- 234 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 442 PDF objects out of 1000 (max. 8388607)
+ 116 named destinations out of 1000 (max. 500000)
+ 242 words of extra memory for PDF output out of 10000 (max. 10000000)
 
